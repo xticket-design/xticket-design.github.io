@@ -1,0 +1,23 @@
+<svg viewBox="0 0 19.438 23.6768" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="19.437988" height="23.676758" fill="none" customFrame="#000000">
+	<defs>
+		<g id="pixso_custom_effect_23">
+			<effect x="0.000000" y="1.169231" visibility="visible" fill="rgb(0,0,0)" fill-opacity="0.150000006" effectType="dropShadow" stdDeviation="2.33846116" radius="0" />
+		</g>
+		<filter id="filter_23" width="19.437988" height="23.676758" x="0.000000" y="0.000000" filterUnits="userSpaceOnUse" customEffect="url(#pixso_custom_effect_23)" color-interpolation-filters="sRGB">
+			<feFlood flood-opacity="0" result="BackgroundImageFix" />
+			<feColorMatrix result="hardAlpha" in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1.66667 0 " />
+			<feOffset dx="0.000000" dy="1.169231" in="hardAlpha" />
+			<feGaussianBlur stdDeviation="0.779487073" />
+			<feComposite k2="-1" k3="1" in2="hardAlpha" operator="out" />
+			<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.15 0 " />
+			<feBlend result="effect_dropShadow_1" in2="BackgroundImageFix" mode="normal" />
+			<feBlend result="shape" in="SourceGraphic" in2="effect_dropShadow_1" mode="normal" />
+		</filter>
+	</defs>
+	<g id="组合 2886" filter="url(#filter_23)">
+		<path id="减去顶层" d="M7.89198 4.96924L6.5766 4.96924C5.60798 4.96924 4.82275 5.75446 4.82275 6.72308L4.82275 18.4154C4.82275 19.384 5.60798 20.1692 6.5766 20.1692L15.3458 20.1692C16.3145 20.1692 17.0997 19.384 17.0997 18.4154L17.0997 6.72308C17.0997 5.75446 16.3145 4.96924 15.3458 4.96924L14.0304 4.96924L14.0304 6.13847L7.89198 6.13847L7.89198 4.96924Z" opacity="0.600000024" fill="rgb(255,255,255)" fill-rule="evenodd" />
+		<path id="减去顶层" d="M4.82299 2.63062L4.09222 2.63062C3.1236 2.63062 2.33838 3.41584 2.33838 4.38446L2.33838 16.0768C2.33838 17.0454 3.1236 17.8306 4.09222 17.8306L12.8615 17.8306C13.8301 17.8306 14.6153 17.0454 14.6153 16.0768L14.6153 4.38446C14.6153 3.41584 13.8301 2.63062 12.8615 2.63062L12.1307 2.63062C11.8078 2.63062 11.5461 2.89236 11.5461 3.21523C11.5461 3.5381 11.2843 3.79985 10.9615 3.79985L5.99223 3.79985C5.66935 3.79985 5.40761 3.5381 5.40761 3.21523C5.40761 2.89236 5.14587 2.63062 4.82299 2.63062Z" fill="rgb(255,255,255)" fill-rule="evenodd" />
+		<path id="矩形 4062" d="M6.39279 1.16919L10.5604 1.16919C11.1854 1.16919 11.692 1.67581 11.692 2.30075L11.692 2.77688L5.26123 2.77688L5.26123 2.30075C5.26123 1.67581 5.76785 1.16919 6.39279 1.16919Z" fill="rgb(255,255,255)" fill-rule="evenodd" />
+		<path id="维修扳手" d="M2.8013 0.797244C2.16417 1.48978 1.98411 2.44548 2.30268 3.26267L0.322028 5.24332C-0.107343 5.67269 -0.107343 6.36522 0.322028 6.7946C0.7514 7.22397 1.44394 7.22397 1.87331 6.7946L3.85396 4.81395C4.67115 5.13251 5.62685 4.95246 6.31938 4.31532C7.02577 3.67819 7.42275 2.46129 6.86959 1.52874L5.38757 3.01076L4.08723 1.71063L5.56925 0.228602C4.69729 -0.263533 3.43844 0.0908599 2.8013 0.797244Z" fill-rule="nonzero" stroke="rgb(132,154,173)" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.935385" transform="matrix(-1,0,0,1,12.2393,6.9646)" />
+	</g>
+</svg>

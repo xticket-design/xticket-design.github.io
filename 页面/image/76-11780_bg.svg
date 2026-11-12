@@ -1,0 +1,52 @@
+<svg viewBox="0 0 343 162" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="343.000000" height="162.000000" fill="none" clip-path="url(#clipPath_85)" customFrame="url(#clipPath_85)">
+	<defs>
+		<clipPath id="clipPath_85">
+			<rect width="343.000000" height="162.000000" x="0.000000" y="0.000000" rx="16.000000" fill="rgb(255,255,255)" />
+		</clipPath>
+		<g id="pixso_custom_effect_39">
+			<effect visibility="visible" effectType="gaussianBlur" stdDeviation="65" />
+		</g>
+		<filter id="filter_39" width="470.000000" height="430.000000" x="-175.000000" y="-225.000000" filterUnits="userSpaceOnUse" customEffect="url(#pixso_custom_effect_39)" color-interpolation-filters="sRGB">
+			<feFlood flood-opacity="0" result="BackgroundImageFix" />
+			<feBlend result="shape" in="SourceGraphic" in2="BackgroundImageFix" mode="normal" />
+			<feGaussianBlur stdDeviation="21.666666" result="effect_layerBlur_1" />
+		</filter>
+		<g id="pixso_custom_effect_40">
+			<effect visibility="visible" effectType="gaussianBlur" stdDeviation="70" />
+		</g>
+		<filter id="filter_40" width="430.000000" height="375.000000" x="113.000000" y="-68.000000" filterUnits="userSpaceOnUse" customEffect="url(#pixso_custom_effect_40)" color-interpolation-filters="sRGB">
+			<feFlood flood-opacity="0" result="BackgroundImageFix" />
+			<feBlend result="shape" in="SourceGraphic" in2="BackgroundImageFix" mode="normal" />
+			<feGaussianBlur stdDeviation="23.333334" result="effect_layerBlur_1" />
+		</filter>
+		<g id="pixso_custom_effect_41">
+			<effect visibility="visible" effectType="gaussianBlur" stdDeviation="55" />
+		</g>
+		<filter id="filter_41" width="370.000000" height="255.000000" x="-135.000000" y="50.000000" filterUnits="userSpaceOnUse" customEffect="url(#pixso_custom_effect_41)" color-interpolation-filters="sRGB">
+			<feFlood flood-opacity="0" result="BackgroundImageFix" />
+			<feBlend result="shape" in="SourceGraphic" in2="BackgroundImageFix" mode="normal" />
+			<feGaussianBlur stdDeviation="18.333334" result="effect_layerBlur_1" />
+		</filter>
+		<g id="pixso_custom_effect_42">
+			<effect visibility="visible" effectType="gaussianBlur" stdDeviation="58" />
+		</g>
+		<filter id="filter_42" width="341.000000" height="286.000000" x="152.000000" y="33.000000" filterUnits="userSpaceOnUse" customEffect="url(#pixso_custom_effect_42)" color-interpolation-filters="sRGB">
+			<feFlood flood-opacity="0" result="BackgroundImageFix" />
+			<feBlend result="shape" in="SourceGraphic" in2="BackgroundImageFix" mode="normal" />
+			<feGaussianBlur stdDeviation="19.333334" result="effect_layerBlur_1" />
+		</filter>
+	</defs>
+	<rect id="bg" width="343.000000" height="162.000000" x="0.000000" y="0.000000" rx="16.000000" fill="rgb(174,187,198)" />
+	<g opacity="0.829999983" filter="url(#filter_39)">
+		<ellipse id="浅色流光" rx="170.000000" ry="150.000000" cx="60" cy="-10" fill="rgb(248,252,255)" fill-opacity="0.959999979" />
+	</g>
+	<g filter="url(#filter_40)">
+		<ellipse id="深色流光" rx="145.000000" ry="117.500000" cx="328" cy="119.5" fill="rgb(126,147,161)" fill-opacity="0.660000026" />
+	</g>
+	<g filter="url(#filter_41)">
+		<ellipse id="柔和高光" rx="130.000000" ry="72.500000" cx="50" cy="177.5" fill="rgb(238,245,250)" fill-opacity="0.5" />
+	</g>
+	<g filter="url(#filter_42)">
+		<ellipse id="右下回旋光" rx="112.500000" ry="85.000000" cx="322.5" cy="176" fill="rgb(240,250,255)" fill-opacity="0.649999976" />
+	</g>
+</svg>

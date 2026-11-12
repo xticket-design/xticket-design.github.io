@@ -1,0 +1,20 @@
+<svg viewBox="0 0 375 172" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="375.000000" height="172.000000" fill="none">
+	<defs>
+		<g id="pixso_custom_effect_53">
+			<effect visibility="visible" effectType="gaussianBlur" stdDeviation="30" />
+		</g>
+		<filter id="filter_53" width="435.000000" height="232.000000" x="-30.000000" y="-30.000000" filterUnits="userSpaceOnUse" customEffect="url(#pixso_custom_effect_53)" color-interpolation-filters="sRGB">
+			<feFlood flood-opacity="0" result="BackgroundImageFix" />
+			<feBlend result="shape" in="SourceGraphic" in2="BackgroundImageFix" mode="normal" />
+			<feGaussianBlur stdDeviation="10" result="effect_layerBlur_1" />
+		</filter>
+		<linearGradient id="paint_linear_26" x1="187.5" x2="187.5" y1="0" y2="172" gradientUnits="userSpaceOnUse">
+			<stop stop-color="rgb(217,229,241)" offset="0" stop-opacity="0" />
+			<stop stop-color="rgb(231,237,247)" offset="1" stop-opacity="1" />
+		</linearGradient>
+	</defs>
+	<rect id="bgbottom" width="375.000000" height="172.000000" x="0.000000" y="0.000000" />
+	<g filter="url(#filter_53)">
+		<path id="减去顶层" d="M52 27.3885C52 48.5653 110.875 65.7325 183.5 65.7325C256.125 65.7325 315 48.5653 315 27.3885C315 16.6594 299.888 6.95952 275.531 0L375 5.32907e-15L375 172L0 172L0 5.32907e-15L91.4691 5.32907e-15C67.1125 6.95952 52 16.6594 52 27.3885Z" fill="url(#paint_linear_26)" fill-rule="evenodd" />
+	</g>
+</svg>

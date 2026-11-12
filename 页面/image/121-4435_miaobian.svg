@@ -1,0 +1,10 @@
+<svg viewBox="0 0 31.2002 31.6365" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="31.200195" height="31.636475" fill="none" customFrame="#000000">
+	<defs>
+		<linearGradient id="paint_linear_40" x1="27.7680054" x2="2.53827667" y1="4.11272526" y2="24.0181198" gradientUnits="userSpaceOnUse">
+			<stop stop-color="rgb(255,255,255)" offset="0" stop-opacity="0.800000012" />
+			<stop stop-color="rgb(255,255,255)" offset="1" stop-opacity="0.300000012" />
+		</linearGradient>
+	</defs>
+	<ellipse id="miaobian" rx="15.600000" ry="15.818180" cx="15.6000004" cy="15.8181801" fill="rgb(255,180,123)" fill-opacity="0" />
+	<ellipse id="miaobian" rx="15.240001" ry="15.458180" cx="15.6000004" cy="15.8181801" stroke="url(#paint_linear_40)" stroke-width="0.720000" />
+</svg>

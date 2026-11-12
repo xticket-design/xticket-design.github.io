@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pixso HTML</title>
+
+
+  <style>
+:root, 
+[data-collection-0-9-mode=""] {
+  /* 浅色 */
+  --color-t4: rgba(20, 30, 61, 0.4);
+  --color-t2: rgba(20, 30, 61, 0.7);
+  --color-f3: rgba(246, 248, 250, 1);
+  --color-t3: rgba(20, 30, 61, 0.5);
+}
+
+[data-collection-0-9-mode=""] {
+  /* 深色 */
+  --color-t4: rgba(255, 255, 255, 0.4);
+  --color-t2: rgba(255, 255, 255, 0.7);
+  --color-f3: rgba(54, 54, 60, 1);
+  --color-t3: rgba(255, 255, 255, 0.5);
+}
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+ol,ul,menu {
+  padding-inline-start: 0;
+  list-style: none;
+}
+
+ol li::marker, ul li::before {
+  letter-spacing: 0;
+}
+
+.scroll-container > div {
+  width: 100%;
+}
+
+.container > div {
+  width: 100%;
+}
+
+.Pixso-canvas-0_1 > div {
+  width: 100%;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body { 
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  background-color: white;
+}
+    
+span {
+  word-break: break-word;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+}
+
+.fill-字体色f1-76_16062-text {
+  color: rgba(20, 30, 61, 1);
+}
+.scroll-container {
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+}
+
+.Pixso-canvas-0_1,.Pixso-frame-76_9485,.Pixso-group-76_9486 {
+  position: relative;
+  flex-shrink: 0;
+}
+
+.Pixso-canvas-0_1 {
+  width: 100%;
+  height: 100%;
+}
+
+.Pixso-frame-76_9485 {
+  width: 100%;
+  height: 190px;
+  min-width: 357px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 20px 20px 20px 20px;
+  background-color: rgba(246, 248, 250, 1);
+}
+
+.Pixso-group-76_9486 {
+  width: 317px;
+  height: 150px;
+}
+
+.Pixso-rectangle-76_9487,.Pixso-instance-76_9488 {
+  position: absolute;
+  margin-top: auto;
+  margin-bottom: auto;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.Pixso-rectangle-76_9487 {
+  width: 317px;
+  height: 150px;
+  left: 0px;
+  right: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  top: 0px;
+  bottom: 0px;
+  border-radius: 10px 10px 10px 10px;
+  background-color: rgba(255, 255, 255, 1);
+  background-image: url("data:image/svg+xml;utf8,%3Csvg%20viewBox%3D'0%200%20317%20150'%20preserveAspectRatio%3D'none'%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%3E%0A%20%20%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%20%20%3ClinearGradient%20id%3D'grad'%20gradientUnits%3D'objectBoundingBox'%20x1%3D'0'%20y1%3D'0.5'%20x2%3D'1'%20y2%3D'0.5'%20gradientTransform%3D'matrix(-0.0940%2C%200.5000%2C%20-0.5000%2C%20-3.0725%2C%201.1887%2C%201.5362)'%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20stop-color%3D'rgba(252%2C248%2C248%2C1)'%20offset%3D'0.015267'%2F%3E%3Cstop%20stop-color%3D'rgba(255%2C255%2C255%2C1)'%20offset%3D'1'%2F%3E%0A%20%20%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3C%2Fdefs%3E%0A%20%20%20%20%20%20%3Crect%20width%3D'100%25'%20height%3D'100%25'%20fill%3D'url(%23grad)'%2F%3E%0A%20%20%20%20%3C%2Fsvg%3E");
+  background-position: center;
+}
+
+.Pixso-instance-76_9488 {
+  width: 5.04%;
+  height: 16px;
+  background-image: url(./image/76-9488_icon.svg);
+  left: 90.54%;
+  right: 4.42%;
+  top: -52px;
+  bottom: 52px;
+  transform: rotateY(180deg);
+}
+
+.Pixso-paragraph-76_9489,.Pixso-group-76_9490 {
+  width: 289px;
+  position: absolute;
+  left: 14px;
+}
+
+.Pixso-paragraph-76_9489 {
+  font-size: 12px;
+  font-family: "Inter-Regular";
+  font-weight: 400;
+  text-align: left;
+  letter-spacing: 0px;
+  line-height: 17px;
+  text-decoration: none;
+  color: var(--color-t2);
+  height: auto;
+  top: 63px;
+}
+
+.Pixso-group-76_9490 {
+  height: 30px;
+  top: 109px;
+}
+
+.Pixso-rectangle-76_9491 {
+  width: 289px;
+  height: 30px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  bottom: 0px;
+  margin-top: auto;
+  margin-bottom: auto;
+  border-radius: 6px 6px 6px 6px;
+  background-color: var(--color-f3);
+}
+
+.Pixso-frame-76_9492,.frame-content-76_9492 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.Pixso-frame-76_9492 {
+  width: 148.486206px;
+  height: auto;
+  position: absolute;
+  left: 7.972414px;
+  top: 7px;
+}
+
+.frame-content-76_9492 {
+  gap: 4px;
+  width: 100%;
+  position: relative;
+}
+
+.Pixso-vector-76_9493 {
+  width: 16px;
+  height: 16px;
+  background-image: url(./image/76-9493_svg.svg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  position: relative;
+  flex-shrink: 0;
+}
+
+.Pixso-paragraph-76_9496,.Pixso-paragraph-76_9497 {
+  font-family: "Inter-Regular";
+  font-weight: 400;
+  text-align: left;
+  letter-spacing: 0px;
+  width: auto;
+  height: auto;
+  white-space: pre;
+  flex-grow: 0;
+}
+
+.Pixso-paragraph-76_9496 {
+  font-size: 11px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-decoration: underline;
+  color: rgba(96, 122, 152, 1);
+  position: relative;
+  flex-shrink: 0;
+}
+
+.Pixso-paragraph-76_9497 {
+  font-size: 12px;
+  text-decoration: none;
+  color: var(--color-t4);
+  position: absolute;
+  left: 14px;
+  top: 38px;
+}
+
+.Pixso-group-76_9498 {
+  width: 138px;
+  height: 17px;
+  position: absolute;
+  left: -75.5px;
+  right: 75.5px;
+  margin-left: auto;
+  margin-right: auto;
+  top: -51.5px;
+  bottom: 51.5px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.Pixso-text-76_9499 {
+  font-size: 14px;
+  font-family: "Inter-Medium";
+  font-weight: 500;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  letter-spacing: 0px;
+  text-decoration: none;
+  text-transform: capitalize;
+  width: auto;
+  height: auto;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(calc(-50% + 0px)) translateY(calc(-50% + 0px));
+  white-space: nowrap;
+  flex-grow: 0;
+}
+
+.Pixso-paragraph-76_9499_0,.Pixso-span-76_9499_0_1,.Pixso-span-76_9499_0_2,.Pixso-span-76_9499_0_3 {
+  position: relative;
+  flex-shrink: 0;
+}
+
+.Pixso-paragraph-76_9499_0 {
+  line-height: 16.943182px;
+}
+
+.Pixso-span-76_9499_0_1 {
+  text-decoration: none;
+  white-space: pre-wrap;
+}
+
+.Pixso-span-76_9499_0_2 {
+  text-decoration: none;
+  color: var(--color-t3);
+}
+
+.Pixso-span-76_9499_0_3 {
+  text-decoration: none;
+  white-space: pre-wrap;
+}
+
+
+  </style>
+</head>
+<body>
+<div class="scroll-container">
+  <div id="0_1" class="Pixso-canvas-0_1">
+    <div id="76_9485" class="Pixso-frame-76_9485">
+      <div id="76_9486" class="Pixso-group-76_9486">
+        <div id="76_9487" class="Pixso-rectangle-76_9487"></div>
+        <div id="76_9488" class="Pixso-instance-76_9488"></div>
+        <p id="76_9489" class="Pixso-paragraph-76_9489">Your service visit is confirmed for Feb 10, 9:00–11:00.on-site service on Feb 10, 9:00–11:00 dhhd....</p>
+        <div id="76_9490" class="Pixso-group-76_9490">
+          <div id="76_9491" class="Pixso-rectangle-76_9491"></div>
+          <div id="76_9492" class="Pixso-frame-76_9492">
+            <div class="frame-content-76_9492">
+              <div id="76_9493" class="Pixso-vector-76_9493"></div>
+              <p id="76_9496" class="Pixso-paragraph-76_9496">service-confirmation.pdf</p>
+            </div>
+          </div>
+        </div>
+        <p id="76_9497" class="Pixso-paragraph-76_9497">alex@example.com  →  maria@example.com</p>
+        <div id="76_9498" class="Pixso-group-76_9498">
+          <div id="76_9499" class="Pixso-text-76_9499 fill-字体色f1-76_16062-text">
+            <p id="76_9499_0" class="Pixso-paragraph-76_9499_0">
+<span id="76_9499_0_1" class="Pixso-span-76_9499_0_1">SolaX Power  </span><span id="76_9499_0_2" class="Pixso-span-76_9499_0_2">→</span><span id="76_9499_0_3" class="Pixso-span-76_9499_0_3">  You</span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<script>
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pixso HTML</title>
+
+
+  <style>
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+ol,ul,menu {
+  padding-inline-start: 0;
+  list-style: none;
+}
+
+ol li::marker, ul li::before {
+  letter-spacing: 0;
+}
+
+.scroll-container > div {
+  width: 100%;
+}
+
+.container > div {
+  width: 100%;
+}
+
+.Pixso-canvas-0_1 > div {
+  width: 100%;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body { 
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  background-color: white;
+}
+    
+span {
+  word-break: break-word;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+}
+
+.scroll-container {
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+}
+
+.Pixso-canvas-0_1,.Pixso-frame-76_14497 {
+  width: 100%;
+  position: relative;
+  flex-shrink: 0;
+}
+
+.Pixso-canvas-0_1 {
+  height: 100%;
+}
+
+.Pixso-frame-76_14497 {
+  height: 812px;
+  min-width: 375px;
+  overflow: hidden;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.Pixso-rectangle-76_14498 {
+  width: 375px;
+  height: 812px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  background-color: rgba(0, 0, 0, 1);
+}
+
+.Pixso-instance-76_14499 {
+  width: 100%;
+  height: 5.42%;
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 94.58%;
+}
+
+.Pixso-group-121_169 {
+  width: 24.328037px;
+  height: 11.333333px;
+  position: absolute;
+  right: 14.338681000000005px;
+  top: 17.333334px;
+}
+
+.Pixso-rectangle-121_170 {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  border-radius: 2.666667px 2.666667px 2.666667px 2.666667px;
+  z-index: 0;
+  opacity: 0.35;
+}
+
+.stroke-wrapper-121_170 {
+  position: absolute;
+  isolation: isolate;
+  top: 0px;
+  right: 2.3280369999999984px;
+  width: 22px;
+  height: 11.333333px;
+}
+
+.stroke-121_170 {
+  position: absolute;
+  inset: 0px;
+  border-radius: 2.666667px 2.666667px 2.666667px 2.666667px;
+  pointer-events: none;
+  opacity: 0.35;
+  z-index: 1;
+  border-width: 1px;
+  border-style: solid;
+  box-sizing: border-box;
+  border-color: rgba(254.74501, 254.807205, 255, 1);
+}
+
+.Pixso-vector-121_171 {
+  width: 1.32806396484375px;
+  height: 4px;
+  background-image: url(./image/121-171_Cap.svg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  position: absolute;
+  right: -0.00002696484375164232px;
+  top: 3.666666px;
+}
+
+.Pixso-rectangle-121_172 {
+  width: 18px;
+  height: 7.333333px;
+  position: absolute;
+  right: 4.328036999999998px;
+  top: 2px;
+  border-radius: 1.333333px 1.333333px 1.333333px 1.333333px;
+  background-color: rgba(254.74501, 254.807205, 255, 1);
+}
+
+.Pixso-vector-121_173,.Pixso-vector-121_177 {
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  position: absolute;
+}
+
+.Pixso-vector-121_173 {
+  width: 15.33331298828125px;
+  height: 11px;
+  background-image: url(./image/121-173_Wifi.svg);
+  right: 43.66668701171875px;
+  top: 17.330673px;
+}
+
+.Pixso-vector-121_177 {
+  width: 17px;
+  height: 10.6666259765625px;
+  background-image: url(./image/121-177_CellularConnection.svg);
+  right: 64px;
+  top: 17.666668px;
+}
+
+.Pixso-frame-121_182 {
+  width: 14.4%;
+  height: 43.18%;
+  position: absolute;
+  left: 5.6%;
+  right: 80%;
+  top: 31.82%;
+  bottom: 25%;
+}
+
+.Pixso-paragraph-121_183 {
+  font-size: 15px;
+  font-family: "SF Pro Text-Semibold";
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: -0.3px;
+  font-feature-settings: "locl" 0;
+  text-decoration: none;
+  color: rgba(254.74501, 254.807205, 255, 1);
+  width: calc(100% - 0px);
+  height: auto;
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 50%;
+  transform: translateY(calc(-50% + -0.17000000000000084px));
+}
+
+.Pixso-rectangle-76_14500 {
+  width: 408.457153px;
+  height: 248.950195px;
+  position: absolute;
+  left: -7.470703px;
+  top: 262.113892px;
+  background-image: url(./image/01455d7ba7ec4a015223af1b46f64cf8b40be95a.06);
+  background-size: 100.0007% 108.8612%;
+  background-repeat: no-repeat;
+  background-position: 0.00px -0.25px;
+}
+
+.Pixso-frame-76_14501 {
+  width: 375px;
+  height: 49px;
+  overflow: hidden;
+  position: absolute;
+  left: 0px;
+  top: 39px;
+}
+
+.Pixso-group-76_14502 {
+  width: 22px;
+  height: 22px;
+  position: absolute;
+  left: 12px;
+  top: 13.5px;
+}
+
+.Pixso-frame-76_14503 {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+}
+
+.Pixso-vector-76_14504 {
+  width: 53.82%;
+  height: 53.82%;
+  background-image: url(./image/76-14504_Group_76_14504.svg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 27.27%;
+  right: 18.91%;
+  top: 27.27%;
+  bottom: 18.91%;
+}
+
+.Pixso-paragraph-76_14508 {
+  font-size: 16px;
+  font-family: "Roboto-Medium";
+  font-weight: 500;
+  text-align: right;
+  letter-spacing: 0px;
+  text-decoration: none;
+  text-transform: capitalize;
+  color: rgba(254.74501, 255, 254.971664, 1);
+  width: auto;
+  height: auto;
+  position: absolute;
+  left: 86.13%;
+  right: 5.07%;
+  top: 30.61%;
+  bottom: 30.61%;
+  white-space: pre;
+  flex-grow: 0;
+}
+
+.Pixso-instance-76_14509 {
+  width: 375px;
+  height: 34px;
+  position: absolute;
+  left: 0px;
+  top: 778px;
+}
+
+.Pixso-group-121_567,.Pixso-frame-121_568 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+}
+
+.Pixso-rectangle-121_569 {
+  width: 375px;
+  height: 34px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+.Pixso-rectangle-121_570 {
+  width: 134px;
+  height: 5px;
+  position: absolute;
+  left: 0.5px;
+  right: -0.5px;
+  margin-left: auto;
+  margin-right: auto;
+  bottom: 8px;
+  border-radius: 100px 100px 100px 100px;
+  background-color: rgba(255, 254.74501, 254.74501, 1);
+}
+
+
+  </style>
+</head>
+<body>
+<div class="scroll-container">
+  <div id="0_1" class="Pixso-canvas-0_1">
+    <div id="76_14497" class="Pixso-frame-76_14497">
+      <div id="76_14498" class="Pixso-rectangle-76_14498"></div>
+      <div id="76_14499" class="Pixso-instance-76_14499">
+        <div id="121_169" class="Pixso-group-121_169">
+          <div id="121_170" class="stroke-wrapper-121_170">
+            <div class="Pixso-rectangle-121_170"></div>
+            <div class="stroke-121_170"></div>
+          </div>
+          <div id="121_171" class="Pixso-vector-121_171"></div>
+          <div id="121_172" class="Pixso-rectangle-121_172"></div>
+        </div>
+        <div id="121_173" class="Pixso-vector-121_173"></div>
+        <div id="121_177" class="Pixso-vector-121_177"></div>
+        <div id="121_182" class="Pixso-frame-121_182">
+          <p id="121_183" class="Pixso-paragraph-121_183">9:41</p>
+        </div>
+      </div>
+      <div id="76_14500" class="Pixso-rectangle-76_14500"></div>
+      <div id="76_14501" class="Pixso-frame-76_14501">
+        <div id="76_14502" class="Pixso-group-76_14502">
+          <div id="76_14503" class="Pixso-frame-76_14503">
+            <div id="76_14504" class="Pixso-vector-76_14504"></div>
+          </div>
+        </div>
+        <p id="76_14508" class="Pixso-paragraph-76_14508">1 / 1</p>
+      </div>
+      <div id="76_14509" class="Pixso-instance-76_14509">
+        <div id="121_567" class="Pixso-group-121_567">
+          <div id="121_568" class="Pixso-frame-121_568">
+            <div id="121_569" class="Pixso-rectangle-121_569"></div>
+            <div id="121_570" class="Pixso-rectangle-121_570"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<script>
+
+</script>
+
+<script>const shots=['01455d7ba7ec4a015223af1b46f64cf8b40be95a.06','fadb47aef7d6f07d4ce25ac982692d8329c97176.png','d221dec4c04b73e0a656bf3df96eeecb5a6e5d64.png','a82c22c757ed6e34702eddeb2cc69114fbbefc1d.png'];let shot=shots[parent.demoImage||0];let image=document.getElementById('76_14500');if(image){image.style.backgroundImage='url(image/'+shot+')';image.style.backgroundSize='contain';image.style.backgroundPosition='center';image.style.left='0';image.style.width='375px'}document.addEventListener('click',e=>{if(e.target.closest('[id="76_14502"]'))parent.back()});</script></body>
+</html>

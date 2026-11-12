@@ -1,0 +1,22 @@
+<svg viewBox="0 0 16.3931 17.1965" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16.393066" height="17.196533" fill="none" customFrame="#000000">
+	<defs>
+		<g id="pixso_custom_effect_4">
+			<effect x="0.000000" y="1.019608" visibility="visible" fill="rgb(0,0,0)" fill-opacity="0.150000006" effectType="dropShadow" stdDeviation="2.0392158" radius="0" />
+		</g>
+		<filter id="filter_4" width="16.393066" height="17.196533" x="0.000000" y="0.000000" filterUnits="userSpaceOnUse" customEffect="url(#pixso_custom_effect_4)" color-interpolation-filters="sRGB">
+			<feFlood flood-opacity="0" result="BackgroundImageFix" />
+			<feColorMatrix result="hardAlpha" in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1.66667 0 " />
+			<feOffset dx="0.000000" dy="1.019608" in="hardAlpha" />
+			<feGaussianBlur stdDeviation="0.679738581" />
+			<feComposite k2="-1" k3="1" in2="hardAlpha" operator="out" />
+			<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.15 0 " />
+			<feBlend result="effect_dropShadow_1" in2="BackgroundImageFix" mode="normal" />
+			<feBlend result="shape" in="SourceGraphic" in2="effect_dropShadow_1" mode="normal" />
+		</filter>
+	</defs>
+	<g id="组合 2817" filter="url(#filter_4)">
+		<path id="矢量 717" d="M8.85559 2.72176L4.33479 4.03368C4.00802 4.1285 3.7832 4.42783 3.7832 4.76808L3.7832 7.51704C3.7832 12.1681 7.9464 13.7988 8.88309 14.1068C9.00412 14.1466 9.13369 14.1481 9.25535 14.1102C10.194 13.8183 14.3542 12.2365 14.3542 7.13358L14.3542 4.76808C14.3542 4.42783 14.1294 4.1285 13.8026 4.03368L9.28183 2.72176C9.14262 2.68136 8.9948 2.68136 8.85559 2.72176Z" opacity="0.600000024" fill="rgb(255,255,255)" fill-rule="evenodd" />
+		<path id="矢量 715" d="M7.2943 1.05357L2.57888 2.50447C2.25801 2.6032 2.03906 2.89965 2.03906 3.23536L2.03906 6.32398C2.03906 11.4313 6.34585 13.2257 7.32344 13.5672C7.45073 13.6116 7.5881 13.6133 7.71612 13.571C8.69601 13.2471 12.9993 11.5057 12.9993 5.90243L12.9993 3.23536C12.9993 2.89965 12.7804 2.6032 12.4595 2.50447L7.74408 1.05357C7.59754 1.00848 7.44083 1.00848 7.2943 1.05357Z" fill="rgb(255,255,255)" fill-rule="evenodd" />
+		<path id="矢量 716" d="M5.976 6.5987L7.24909 7.81047C7.17987 7.74459 7.11015 7.74405 7.03993 7.80885L9.06806 5.93745C9.2543 5.76561 9.54457 5.77728 9.71642 5.96351C9.88826 6.14975 9.87659 6.44002 9.69036 6.61186L7.66222 8.48326C7.51409 8.61994 7.33926 8.6875 7.13771 8.68594C6.93617 8.68437 6.7624 8.61411 6.61642 8.47515L5.34333 7.26338C5.15979 7.08867 5.15262 6.79825 5.32733 6.6147C5.50203 6.43116 5.79246 6.42399 5.976 6.5987ZM5.37161 7.26268L5.34333 7.26338C5.15722 7.08623 5.15018 6.80082 5.32733 6.6147C5.50448 6.42859 5.78989 6.42155 5.976 6.5987L5.9767 6.62697L5.37161 7.26268ZM9.06693 5.96571L9.06806 5.93745C9.2569 5.76321 9.54217 5.77468 9.71641 5.96351C9.89066 6.15235 9.87919 6.43762 9.69036 6.61186L9.66209 6.61073L9.06693 5.96571Z" fill="rgb(115,79,215)" fill-rule="nonzero" />
+	</g>
+</svg>

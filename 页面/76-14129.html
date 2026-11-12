@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pixso HTML</title>
+
+
+  <style>
+:root, 
+[data-collection-0-9-mode=""] {
+  /* 浅色 */
+  --color-l1: rgba(239, 239, 239, 1);
+}
+
+[data-collection-0-9-mode=""] {
+  /* 深色 */
+  --color-l1: rgba(65, 65, 68, 1);
+}
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+ol,ul,menu {
+  padding-inline-start: 0;
+  list-style: none;
+}
+
+ol li::marker, ul li::before {
+  letter-spacing: 0;
+}
+
+.scroll-container > div {
+  width: 100%;
+}
+
+.container > div {
+  width: 100%;
+}
+
+.Pixso-canvas-0_1 > div {
+  width: 100%;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body { 
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  background-color: white;
+}
+    
+span {
+  word-break: break-word;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+}
+
+.fill-字体色f1-76_16042-paragraph {
+  color: rgba(20, 30, 61, 1);
+}
+.scroll-container {
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+}
+
+.Pixso-canvas-0_1,.Pixso-group-76_14129 {
+  width: 100%;
+  position: relative;
+  flex-shrink: 0;
+}
+
+.Pixso-canvas-0_1 {
+  height: 100%;
+}
+
+.Pixso-group-76_14129 {
+  height: 166px;
+  min-width: 343px;
+}
+
+.Pixso-rectangle-76_14130,.Pixso-vector-76_14156,.Pixso-vector-76_14160,.Pixso-vector-76_14168,.Pixso-vector-76_14172 {
+  right: 0px;
+  bottom: 0px;
+}
+
+.Pixso-rectangle-76_14130,.Pixso-vector-76_14156,.Pixso-vector-76_14160,.Pixso-vector-76_14168,.Pixso-vector-76_14172,.Pixso-group-76_14181 {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Pixso-rectangle-76_14130,.Pixso-vector-76_14156,.Pixso-vector-76_14160,.Pixso-vector-76_14168,.Pixso-vector-76_14172,.Pixso-instance-76_14175,.Pixso-group-76_14181 {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.Pixso-rectangle-76_14130,.Pixso-vector-76_14156,.Pixso-vector-76_14157,.Pixso-vector-76_14160,.Pixso-vector-76_18189,.Pixso-vector-76_14168,.Pixso-vector-76_18218,.Pixso-vector-76_14172,.Pixso-vector-76_18246,.Pixso-instance-76_14175 {
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.Pixso-rectangle-76_14130 {
+  width: 343px;
+  height: 166px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  border-radius: 12px 12px 12px 12px;
+  background-color: rgba(255, 255, 255, 1);
+  background-image: url("data:image/svg+xml;utf8,%3Csvg%20viewBox%3D'0%200%20343%20166'%20preserveAspectRatio%3D'none'%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%3E%0A%20%20%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%20%20%3ClinearGradient%20id%3D'grad'%20gradientUnits%3D'objectBoundingBox'%20x1%3D'0'%20y1%3D'0.5'%20x2%3D'1'%20y2%3D'0.5'%20gradientTransform%3D'matrix(-0.0940%2C%200.5000%2C%20-0.5000%2C%20-3.0725%2C%201.1887%2C%201.5362)'%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20stop-color%3D'rgba(252%2C248%2C248%2C1)'%20offset%3D'0.015267'%2F%3E%3Cstop%20stop-color%3D'rgba(255%2C255%2C255%2C1)'%20offset%3D'1'%2F%3E%0A%20%20%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3C%2Fdefs%3E%0A%20%20%20%20%20%20%3Crect%20width%3D'100%25'%20height%3D'100%25'%20fill%3D'url(%23grad)'%2F%3E%0A%20%20%20%20%3C%2Fsvg%3E");
+  background-position: center;
+}
+
+.Pixso-group-76_14131 {
+  width: 261px;
+  height: 24px;
+  position: absolute;
+  left: 16px;
+  top: 126px;
+}
+
+.Pixso-rectangle-76_14132 {
+  width: 236px;
+  height: 2px;
+  position: absolute;
+  left: 12px;
+  top: 11px;
+  background-color: var(--color-l1);
+}
+
+.Pixso-group-76_14155,.Pixso-vector-76_14156 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+.Pixso-vector-76_14156 {
+  background-image: url(./image/76-14156_Dispatch.svg);
+}
+
+.Pixso-vector-76_14157,.Pixso-vector-76_18189,.Pixso-vector-76_18218,.Pixso-vector-76_18246 {
+  width: 58.34%;
+  height: 58.34%;
+  left: 20.83%;
+  right: 20.83%;
+  top: 20.83%;
+  bottom: 20.83%;
+}
+
+.Pixso-vector-76_14157 {
+  background-image: url(./image/76-14157_PendingShipment.svg);
+  position: absolute;
+}
+
+.Pixso-group-76_14159,.Pixso-vector-76_14160,.Pixso-group-76_14167,.Pixso-vector-76_14168,.Pixso-group-76_14171,.Pixso-vector-76_14172 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  top: 0px;
+}
+
+.Pixso-group-76_14159 {
+  left: 79px;
+}
+
+.Pixso-vector-76_14160 {
+  background-image: url(./image/76-14160_Schedule.svg);
+  left: 0px;
+}
+
+.Pixso-vector-76_18189 {
+  background-image: url(./image/76-18189_Shipped.svg);
+  position: absolute;
+}
+
+.Pixso-group-76_14167 {
+  left: 158px;
+}
+
+.Pixso-vector-76_14168 {
+  background-image: url(./image/76-14168_Confirmed.svg);
+  left: 0px;
+}
+
+.Pixso-vector-76_18218 {
+  background-image: url(./image/76-18218_InTransit.svg);
+  position: absolute;
+}
+
+.Pixso-group-76_14171 {
+  left: 237px;
+}
+
+.Pixso-vector-76_14172 {
+  background-image: url(./image/76-14172_Completed.svg);
+  left: 0px;
+}
+
+.Pixso-vector-76_18246,.Pixso-instance-76_14175 {
+  position: absolute;
+}
+
+.Pixso-vector-76_18246 {
+  background-image: url(./image/76-18246_Delivered.svg);
+}
+
+.Pixso-instance-76_14175,.Pixso-group-76_14181 {
+  top: -30px;
+  bottom: 30px;
+}
+
+.Pixso-instance-76_14175 {
+  width: 5.25%;
+  height: 18px;
+  background-image: url(./image/76-14175_icon.svg);
+  left: 91.25%;
+  right: 3.5%;
+  transform: none;
+}
+
+.Pixso-text-76_14176,.Pixso-paragraph-76_14178,.Pixso-paragraph-76_14182 {
+  font-family: "Inter-Medium";
+  font-weight: 500;
+}
+
+.Pixso-text-76_14176 {
+  font-size: 14px;
+  text-align: left;
+  letter-spacing: 0px;
+  text-decoration: none;
+  color: rgba(20, 30, 61, 1);
+  width: 287px;
+  height: 20px;
+  position: absolute;
+  left: 16px;
+  top: 96px;
+}
+
+.Pixso-paragraph-76_14176_0 {
+  line-height: 16.943182px;
+  position: relative;
+  flex-shrink: 0;
+}
+
+.Pixso-span-76_14176_0_1,.Pixso-span-76_14176_0_2 {
+  text-decoration: none;
+  position: relative;
+  flex-shrink: 0;
+}
+
+.Pixso-span-76_14176_0_1 {
+  color: rgba(70, 164, 252, 1);
+}
+
+.Pixso-span-76_14176_0_2 {
+  white-space: pre-wrap;
+}
+
+.Pixso-frame-76_14177,.frame-content-76_14177 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.Pixso-frame-76_14177 {
+  width: 311px;
+  height: auto;
+  position: absolute;
+  left: 16px;
+  top: 16px;
+}
+
+.frame-content-76_14177 {
+  width: 100%;
+  position: relative;
+}
+
+.Pixso-paragraph-76_14178,.Pixso-paragraph-76_14179,.Pixso-paragraph-76_14180,.Pixso-paragraph-76_14182 {
+  width: auto;
+  white-space: pre;
+  flex-grow: 0;
+}
+
+.Pixso-paragraph-76_14178,.Pixso-paragraph-76_14179,.Pixso-paragraph-76_14180 {
+  font-size: 12px;
+  letter-spacing: 0px;
+  text-decoration: none;
+  color: rgba(125, 140, 162, 1);
+  height: auto;
+}
+
+.Pixso-paragraph-76_14178 {
+  text-align: left;
+  position: relative;
+  flex-shrink: 0;
+}
+
+.Pixso-paragraph-76_14179,.Pixso-paragraph-76_14180 {
+  font-family: "Inter-Regular";
+  font-weight: 400;
+}
+
+.Pixso-paragraph-76_14179 {
+  text-align: right;
+  position: relative;
+  flex-shrink: 0;
+}
+
+.Pixso-paragraph-76_14180 {
+  text-align: left;
+  position: absolute;
+  left: 16px;
+  top: 69px;
+}
+
+.Pixso-group-76_14181 {
+  width: 242px;
+  height: 20px;
+  position: absolute;
+  left: -34.5px;
+  right: 34.5px;
+}
+
+.Pixso-paragraph-76_14182 {
+  font-size: 16px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  letter-spacing: 0px;
+  text-decoration: none;
+  text-transform: capitalize;
+  height: auto;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(calc(-50% + 0px)) translateY(calc(-50% + 0px));
+}
+
+
+  [id="76_14175"]{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 18 18'%3E%3Cpath d='M7 4.5L11.5 9 7 13.5' fill='none' stroke='%239b9b9b' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E")!important;background-size:100% 100%!important;background-repeat:no-repeat!important;transform:none!important}</style>
+</head>
+<body>
+<div class="scroll-container">
+  <div id="0_1" class="Pixso-canvas-0_1">
+    <div id="76_14129" class="Pixso-group-76_14129">
+      <div id="76_14130" class="Pixso-rectangle-76_14130"></div>
+      <div id="76_14131" class="Pixso-group-76_14131">
+        <div id="76_14132" class="Pixso-rectangle-76_14132"></div>
+        <div id="76_14155" class="Pixso-group-76_14155">
+          <div id="76_14156" class="Pixso-vector-76_14156"></div>
+          <div id="76_14157" class="Pixso-vector-76_14157"></div>
+        </div>
+        <div id="76_14159" class="Pixso-group-76_14159">
+          <div id="76_14160" class="Pixso-vector-76_14160"></div>
+          <div id="76_18189" class="Pixso-vector-76_18189"></div>
+        </div>
+        <div id="76_14167" class="Pixso-group-76_14167">
+          <div id="76_14168" class="Pixso-vector-76_14168"></div>
+          <div id="76_18218" class="Pixso-vector-76_18218"></div>
+        </div>
+        <div id="76_14171" class="Pixso-group-76_14171">
+          <div id="76_14172" class="Pixso-vector-76_14172"></div>
+          <div id="76_18246" class="Pixso-vector-76_18246"></div>
+        </div>
+      </div>
+      <div id="76_14175" class="Pixso-instance-76_14175"></div>
+      <div id="76_14176" class="Pixso-text-76_14176">
+        <p id="76_14176_0" class="Pixso-paragraph-76_14176_0">
+<span id="76_14176_0_1" class="Pixso-span-76_14176_0_1">Delivery</span><span id="76_14176_0_2" class="Pixso-span-76_14176_0_2">  ›  Shipped</span></p>
+      </div>
+      <div id="76_14177" class="Pixso-frame-76_14177">
+        <div class="frame-content-76_14177">
+          <p id="76_14178" class="Pixso-paragraph-76_14178">No. 643678</p>
+          <p id="76_14179" class="Pixso-paragraph-76_14179">Updated 14:32</p>
+        </div>
+      </div>
+      <p id="76_14180" class="Pixso-paragraph-76_14180">Model: XI-HYBRID-G4</p>
+      <div id="76_14181" class="Pixso-group-76_14181">
+        <p id="76_14182" class="Pixso-paragraph-76_14182 fill-字体色f1-76_16042-paragraph">Conversation with solaX power</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<script>
+
+</script>
+
+</body>
+</html>

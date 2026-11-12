@@ -1,0 +1,883 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pixso HTML</title>
+  <style>
+:root, 
+[data-collection-0-9-mode=""] {
+  /* 浅色 */
+  --color-l3: rgba(20, 30, 61, 1);
+  --color-p4: rgba(26, 188, 170, 1);
+  --color-p1: rgba(20, 30, 61, 1);
+  --color-t3: rgba(20, 30, 61, 0.5);
+  --color-t1: rgba(20, 30, 61, 1);
+}
+
+[data-collection-0-9-mode=""] {
+  /* 深色 */
+  --color-l3: rgba(255, 255, 255, 0.95);
+  --color-p4: rgba(8, 171, 179, 1);
+  --color-p1: rgba(255, 255, 255, 0.95);
+  --color-t3: rgba(255, 255, 255, 0.5);
+  --color-t1: rgba(255, 255, 255, 0.95);
+}
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+ol,ul,menu {
+  padding-inline-start: 0;
+  list-style: none;
+}
+
+ol li::marker, ul li::before {
+  letter-spacing: 0;
+}
+
+.scroll-container > div {
+  width: 100%;
+}
+
+.container > div {
+  width: 100%;
+}
+
+.Pixso-canvas-0_1 > div {
+  width: 100%;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body { 
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  background-color: white;
+}
+    
+span {
+  word-break: break-word;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+}
+
+.fill-文字t4-40-76_16056-paragraph {
+  color: rgba(20, 30, 61, 0.4);
+}
+
+.stroke-字体色f1-76_16042 {
+  border-color: rgba(20, 30, 61, 1);
+}
+
+.fill-字体色f1-76_16042 {
+  background-color: rgba(20, 30, 61, 1);
+}
+
+.fill-字体色f1-76_16042-paragraph {
+  color: rgba(20, 30, 61, 1);
+}
+.scroll-container {
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+}
+
+.Pixso-canvas-0_1,.Pixso-frame-76_9341 {
+  width: 100%;
+  position: relative;
+  flex-shrink: 0;
+}
+
+.Pixso-canvas-0_1 {
+  height: 100%;
+}
+
+.Pixso-frame-76_9341 {
+  height: 812px;
+  min-width: 375px;
+  background-color: rgba(246, 248, 250, 1);
+}
+
+.Pixso-frame-76_9342,.Pixso-frame-76_9346,.Pixso-rectangle-102_1221 {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Pixso-frame-76_9342 {
+  width: 343px;
+  height: 70px;
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 96px;
+  border-radius: 12px 12px 12px 12px;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.Pixso-frame-76_9343,.frame-content-76_9343 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.Pixso-frame-76_9343 {
+  width: 300px;
+  height: auto;
+  position: absolute;
+  left: 16px;
+  top: 13px;
+}
+
+.frame-content-76_9343 {
+  gap: 10px;
+  width: 100%;
+  position: relative;
+}
+
+.Pixso-text-76_9344,.Pixso-paragraph-76_9344_0,.Pixso-span-76_9344_0_1,.Pixso-span-76_9344_0_2,.Pixso-span-76_9344_0_3,.Pixso-span-76_9344_0_4,.Pixso-paragraph-76_9345 {
+  position: relative;
+  flex-shrink: 0;
+}
+
+.Pixso-text-76_9344 {
+  font-size: 12px;
+  font-family: "Inter-Semi Bold";
+  font-weight: 600;
+  text-align: left;
+  letter-spacing: 0px;
+  text-decoration: none;
+  color: var(--color-p4);
+  width: 100%;
+  height: auto;
+  flex-grow: 0;
+}
+
+.Pixso-paragraph-76_9344_0 {
+  line-height: 14.522727px;
+}
+
+.Pixso-span-76_9344_0_1 {
+  text-decoration: none;
+  color: var(--color-p4);
+}
+
+.Pixso-span-76_9344_0_2 {
+  text-decoration: none;
+  color: var(--color-p1);
+  white-space: pre-wrap;
+}
+
+.Pixso-span-76_9344_0_3 {
+  text-decoration: none;
+  color: var(--color-p4);
+}
+
+.Pixso-span-76_9344_0_4 {
+  text-decoration: none;
+  color: var(--color-p1);
+}
+
+.Pixso-paragraph-76_9345,.Pixso-paragraph-76_9347,.Pixso-paragraph-76_9358,.Pixso-paragraph-76_9360,.Pixso-paragraph-76_9362,.Pixso-paragraph-76_9364,.Pixso-paragraph-76_9366,.Pixso-paragraph-76_9368 {
+  font-family: "Inter-Medium";
+  font-weight: 500;
+}
+
+.Pixso-paragraph-76_9345 {
+  font-size: 14px;
+  text-align: left;
+  letter-spacing: 0px;
+  font-feature-settings: "locl" 0;
+  text-decoration: none;
+  color: rgba(20, 30, 61, 1);
+  width: 100%;
+  height: auto;
+  flex-grow: 0;
+}
+
+.Pixso-frame-76_9346 {
+  width: 343px;
+  height: 290px;
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 178px;
+  border-radius: 12px 12px 12px 12px;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.Pixso-paragraph-76_9347,.Pixso-paragraph-76_9348 {
+  text-align: left;
+  letter-spacing: 0px;
+  text-decoration: none;
+  height: auto;
+  position: absolute;
+  left: 16px;
+}
+
+.Pixso-paragraph-76_9347 {
+  font-size: 16px;
+  color: rgba(20, 30, 61, 1);
+  width: 310px;
+  top: 18px;
+}
+
+.Pixso-paragraph-76_9348,.Pixso-paragraph-76_9370,.Pixso-paragraph-76_9371 {
+  font-family: "Inter-Regular";
+  font-weight: 400;
+}
+
+.Pixso-paragraph-76_9348 {
+  font-size: 12px;
+  font-feature-settings: "locl" 0;
+  color: var(--color-t3);
+  width: 303px;
+  top: 65px;
+  white-space: pre;
+}
+
+.Pixso-vector-76_9349,.Pixso-vector-76_9377,.Pixso-vector-102_1225,.Pixso-vector-102_1227,.Pixso-vector-102_1231,.Pixso-vector-102_1295,.Pixso-vector-102_1297,.Pixso-vector-102_1301 {
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.Pixso-vector-76_9349 {
+  width: 250px;
+  height: 34px;
+  background-image: url(./image/Frame_76_9349.svg);
+  position: absolute;
+  left: 50%;
+  top: 111px;
+  transform: translateX(calc(-50% + 0.5px));
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.Pixso-paragraph-76_9355 {
+  font-size: 14px;
+  font-family: "Inter-Semi Bold";
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: 0px;
+  font-feature-settings: "locl" 0;
+  text-decoration: none;
+  color: var(--color-t1);
+  width: 343px;
+  height: auto;
+  position: absolute;
+  left: 0px;
+  top: 158px;
+  white-space: pre;
+}
+
+.Pixso-group-76_9356 {
+  width: 306px;
+  height: 68px;
+  position: absolute;
+  left: 16px;
+  top: 201px;
+}
+
+.Pixso-rectangle-76_9357,.Pixso-rectangle-76_9363 {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  border-radius: 15px 15px 15px 15px;
+  z-index: 0;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.stroke-wrapper-76_9357 {
+  position: absolute;
+  isolation: isolate;
+  left: 0px;
+  top: 0px;
+  width: 145px;
+  height: 30px;
+}
+
+.stroke-76_9357,.stroke-76_9363,.stroke-102_1224,.stroke-102_1294 {
+  inset: 0px;
+  pointer-events: none;
+  z-index: 1;
+  border-style: solid;
+  box-sizing: border-box;
+}
+
+.stroke-76_9357,.stroke-76_9363 {
+  position: absolute;
+  border-radius: 15px 15px 15px 15px;
+  border-width: 1px 1px 1px 1px;
+  border-color: var(--color-l3);
+}
+
+.Pixso-paragraph-76_9358 {
+  font-size: 11px;
+  text-align: center;
+  letter-spacing: 0px;
+  font-feature-settings: "locl" 0;
+  text-decoration: none;
+  color: var(--color-t1);
+  width: 145px;
+  height: auto;
+  position: absolute;
+  left: 0px;
+  top: 8px;
+  white-space: pre;
+}
+
+.Pixso-rectangle-76_9359,.Pixso-paragraph-76_9360 {
+  width: 116px;
+  left: 153px;
+}
+
+.Pixso-rectangle-76_9359 {
+  height: 30px;
+  position: absolute;
+  top: 0px;
+  border-radius: 15px 15px 15px 15px;
+  background-color: rgba(246, 248, 250, 1);
+}
+
+.Pixso-paragraph-76_9360 {
+  font-size: 11px;
+  text-align: center;
+  letter-spacing: 0px;
+  font-feature-settings: "locl" 0;
+  text-decoration: none;
+  color: var(--color-t3);
+  height: auto;
+  position: absolute;
+  top: 8px;
+  white-space: pre;
+}
+
+.Pixso-rectangle-76_9361 {
+  width: 110px;
+  height: 30px;
+  position: absolute;
+  left: 0px;
+  top: 38px;
+  border-radius: 15px 15px 15px 15px;
+  background-color: rgba(246, 248, 250, 1);
+}
+
+.Pixso-paragraph-76_9362 {
+  font-size: 11px;
+  text-align: center;
+  letter-spacing: 0px;
+  font-feature-settings: "locl" 0;
+  text-decoration: none;
+  color: var(--color-t3);
+  width: 110px;
+  height: auto;
+  position: absolute;
+  left: 0px;
+  top: 46px;
+  white-space: pre;
+}
+
+.stroke-wrapper-76_9363,.Pixso-paragraph-76_9364 {
+  left: 118px;
+  width: 124px;
+}
+
+.stroke-wrapper-76_9363 {
+  position: absolute;
+  isolation: isolate;
+  top: 38px;
+  height: 30px;
+}
+
+.Pixso-paragraph-76_9364 {
+  font-size: 11px;
+  text-align: center;
+  letter-spacing: 0px;
+  font-feature-settings: "locl" 0;
+  text-decoration: none;
+  color: var(--color-t1);
+  height: auto;
+  position: absolute;
+  top: 46px;
+  white-space: pre;
+}
+
+.Pixso-rectangle-76_9365,.Pixso-paragraph-76_9366 {
+  width: 56px;
+  left: 250px;
+}
+
+.Pixso-rectangle-76_9365 {
+  height: 30px;
+  position: absolute;
+  top: 38px;
+  border-radius: 15px 15px 15px 15px;
+  background-color: rgba(246, 248, 250, 1);
+}
+
+.Pixso-paragraph-76_9366 {
+  font-size: 11px;
+  text-align: center;
+  letter-spacing: 0px;
+  font-feature-settings: "locl" 0;
+  text-decoration: none;
+  color: var(--color-t3);
+  height: auto;
+  position: absolute;
+  top: 46px;
+  white-space: pre;
+}
+
+.Pixso-frame-76_9367 {
+  width: 343px;
+  height: 158px;
+  position: absolute;
+  left: 16px;
+  top: 480px;
+  border-radius: 12px 12px 12px 12px;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.Pixso-paragraph-76_9368 {
+  font-size: 16px;
+  text-align: left;
+  letter-spacing: 0px;
+  font-feature-settings: "locl" 0;
+  text-decoration: none;
+  color: rgba(20, 30, 61, 1);
+  width: 311px;
+  height: auto;
+  position: absolute;
+  left: 16px;
+  top: 16px;
+  white-space: pre;
+}
+
+.Pixso-rectangle-76_9369 {
+  width: 311px;
+  height: 80px;
+  position: absolute;
+  left: 16px;
+  top: 46px;
+  border-radius: 8px 8px 8px 8px;
+  background-color: rgba(246, 248, 250, 1);
+}
+
+.Pixso-paragraph-76_9370,.Pixso-paragraph-76_9371 {
+  letter-spacing: 0px;
+  text-decoration: none;
+  height: auto;
+  position: absolute;
+  white-space: pre;
+}
+
+.Pixso-paragraph-76_9370 {
+  font-size: 14px;
+  text-align: left;
+  font-feature-settings: "locl" 0;
+  color: var(--color-t1);
+  width: 280px;
+  left: 28px;
+  top: 59px;
+}
+
+.Pixso-paragraph-76_9371 {
+  font-size: 12px;
+  text-align: right;
+  width: auto;
+  left: 285px;
+  top: 132px;
+  flex-grow: 0;
+}
+
+.Pixso-group-76_9372,.Pixso-frame-76_9373 {
+  width: 375px;
+  position: absolute;
+  left: 0px;
+}
+
+.Pixso-group-76_9372 {
+  height: 88px;
+  top: 0px;
+}
+
+.Pixso-frame-76_9373 {
+  height: 100%;
+  top: 0%;
+  bottom: 0%;
+}
+
+.Pixso-group-76_9374,.Pixso-rectangle-76_9375,.Pixso-group-102_1218,.Pixso-frame-102_1219,.Pixso-rectangle-76_9376,.Pixso-instance-76_9389 {
+  left: 0%;
+  right: 0%;
+}
+
+.Pixso-group-76_9374,.Pixso-rectangle-76_9375,.Pixso-group-102_1218,.Pixso-frame-102_1219 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0%;
+  bottom: 0%;
+}
+
+.Pixso-rectangle-76_9376 {
+  width: 100%;
+  height: 50%;
+  position: absolute;
+  top: 50%;
+  bottom: 0%;
+}
+
+.Pixso-vector-76_9377 {
+  width: 5.87%;
+  height: 25%;
+  background-image: url(./image/76-9377_svg.svg);
+  position: absolute;
+  left: 3.2%;
+  right: 90.93%;
+  top: 62.5%;
+  bottom: 12.5%;
+}
+
+.Pixso-instance-76_9389 {
+  width: 100%;
+  height: 50%;
+  position: absolute;
+  top: 0%;
+  bottom: 50%;
+}
+
+.Pixso-group-102_1223,.Pixso-group-102_1293 {
+  width: 24.328037px;
+  height: 11.333333px;
+  position: absolute;
+  right: 14.338681000000005px;
+  top: 17.333334px;
+}
+
+.Pixso-rectangle-102_1224,.Pixso-rectangle-102_1294,.stroke-102_1224,.stroke-102_1294 {
+  border-radius: 2.666667px 2.666667px 2.666667px 2.666667px;
+  opacity: 0.35;
+}
+
+.Pixso-rectangle-102_1224,.Pixso-rectangle-102_1294 {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: 0;
+}
+
+.stroke-wrapper-102_1224,.stroke-wrapper-102_1294 {
+  position: absolute;
+  isolation: isolate;
+  top: 0px;
+  right: 2.3280369999999984px;
+  width: 22px;
+  height: 11.333333px;
+}
+
+.stroke-102_1224,.stroke-102_1294 {
+  position: absolute;
+  border-width: 1px;
+}
+
+.Pixso-vector-102_1225,.Pixso-vector-102_1295 {
+  width: 1.328125px;
+  height: 4px;
+  right: -0.00008800000000164232px;
+  top: 3.666666px;
+}
+
+.Pixso-vector-102_1225 {
+  background-image: url(./image/102-1225_Cap0.svg);
+  position: absolute;
+}
+
+.Pixso-rectangle-102_1226,.Pixso-rectangle-102_1296 {
+  width: 18px;
+  height: 7.333333px;
+  position: absolute;
+  right: 4.328036999999998px;
+  top: 2px;
+  border-radius: 1.333333px 1.333333px 1.333333px 1.333333px;
+}
+
+.Pixso-vector-102_1227,.Pixso-vector-102_1231,.Pixso-vector-102_1295,.Pixso-vector-102_1297,.Pixso-vector-102_1301 {
+  position: absolute;
+}
+
+.Pixso-vector-102_1227,.Pixso-vector-102_1297 {
+  width: 15.333251953125px;
+  height: 11px;
+  right: 43.666748046875px;
+  top: 17.330673px;
+}
+
+.Pixso-vector-102_1227 {
+  background-image: url(./image/102-1227_Wifi0.svg);
+}
+
+.Pixso-vector-102_1231,.Pixso-vector-102_1301 {
+  width: 17px;
+  height: 10.666667938232422px;
+  right: 64px;
+  top: 17.666668px;
+}
+
+.Pixso-vector-102_1231 {
+  background-image: url(./image/102-1231_CellularConnection0.svg);
+}
+
+.Pixso-frame-102_1236,.Pixso-frame-102_1306 {
+  width: 14.4%;
+  height: 43.18%;
+  position: absolute;
+  left: 5.6%;
+  right: 80%;
+  top: 31.82%;
+  bottom: 25%;
+}
+
+.Pixso-paragraph-102_1237,.Pixso-paragraph-102_1307,.Pixso-paragraph-76_9390 {
+  font-weight: 600;
+  text-align: center;
+  text-decoration: none;
+  height: auto;
+  position: absolute;
+}
+
+.Pixso-paragraph-102_1237,.Pixso-paragraph-102_1307 {
+  font-size: 15px;
+  font-family: "SF Pro Text-Semibold";
+  letter-spacing: -0.3px;
+  font-feature-settings: "locl" 0;
+  width: calc(100% - 0px);
+  left: 0px;
+  right: 0px;
+  top: 50%;
+  transform: translateY(calc(-50% + -0.17000000000000084px));
+}
+
+.Pixso-paragraph-76_9390 {
+  font-size: 18px;
+  font-family: "Inter-Semi Bold";
+  letter-spacing: 0px;
+  text-transform: capitalize;
+  width: auto;
+  left: 35.6%;
+  right: 35.07%;
+  top: 63.64%;
+  bottom: 12.5%;
+  white-space: pre;
+  flex-grow: 0;
+}
+
+.Pixso-instance-76_9391 {
+  width: 375px;
+  height: 50%;
+  position: absolute;
+  left: 0px;
+  top: 0%;
+  bottom: 50%;
+}
+
+.Pixso-vector-102_1295 {
+  background-image: url(./image/102-1295_Cap.svg);
+}
+
+.Pixso-vector-102_1297 {
+  background-image: url(./image/102-1297_Wifi.svg);
+}
+
+.Pixso-vector-102_1301 {
+  background-image: url(./image/102-1301_CellularConnection.svg);
+}
+
+.Pixso-group-76_9392,.Pixso-rectangle-76_9393 {
+  width: 343px;
+  height: 52px;
+  position: absolute;
+}
+
+.Pixso-group-76_9392 {
+  left: 16px;
+  top: 724px;
+}
+
+.Pixso-rectangle-76_9393 {
+  left: 0px;
+  top: 0px;
+  border-radius: 12px 12px 12px 12px;
+  background-color: rgba(20, 30, 61, 1);
+}
+
+.Pixso-paragraph-76_9394 {
+  font-size: 16px;
+  font-family: "Inter-Semi Bold";
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: 0px;
+  font-feature-settings: "locl" 0;
+  text-decoration: none;
+  text-transform: capitalize;
+  color: rgba(255, 255, 255, 1);
+  width: 343px;
+  height: auto;
+  position: absolute;
+  left: 0px;
+  top: 17px;
+  white-space: pre;
+}
+
+.Pixso-instance-76_9395,.Pixso-rectangle-102_1220 {
+  width: 375px;
+  height: 34px;
+  position: absolute;
+  left: 0px;
+}
+
+.Pixso-instance-76_9395 {
+  top: 778px;
+}
+
+.Pixso-rectangle-102_1220 {
+  top: 0px;
+}
+
+.Pixso-rectangle-102_1221 {
+  width: 134px;
+  height: 5px;
+  position: absolute;
+  left: 0.5px;
+  right: -0.5px;
+  bottom: 8px;
+  border-radius: 100px 100px 100px 100px;
+  background-color: rgba(0, 0, 0, 1);
+}
+
+
+  </style>
+</head>
+<body>
+<div class="scroll-container">
+  <div id="0_1" class="Pixso-canvas-0_1">
+    <div id="76_9341" class="Pixso-frame-76_9341">
+      <div id="76_9342" class="Pixso-frame-76_9342">
+        <div id="76_9343" class="Pixso-frame-76_9343">
+          <div class="frame-content-76_9343">
+            <div id="76_9344" class="Pixso-text-76_9344">
+              <p id="76_9344_0" class="Pixso-paragraph-76_9344_0">
+<span id="76_9344_0_1" class="Pixso-span-76_9344_0_1">Done</span><span id="76_9344_0_2" class="Pixso-span-76_9344_0_2">  › </span><span id="76_9344_0_3" class="Pixso-span-76_9344_0_3"> </span><span id="76_9344_0_4" class="Pixso-span-76_9344_0_4"> Closed Feb 2, 2026</span></p>
+            </div>
+            <p id="76_9345" class="Pixso-paragraph-76_9345">Call to +49 6142 967 3009</p>
+          </div>
+        </div>
+      </div>
+      <div id="76_9346" class="Pixso-frame-76_9346">
+        <p id="76_9347" class="Pixso-paragraph-76_9347">How satisfied are you with the support you received?</p>
+        <p id="76_9348" class="Pixso-paragraph-76_9348">Your feedback helps us improve after-sales support.</p>
+        <div id="76_9349" class="Pixso-vector-76_9349"></div>
+        <p id="76_9355" class="Pixso-paragraph-76_9355">Good！</p>
+        <div id="76_9356" class="Pixso-group-76_9356">
+          <div id="76_9357" class="stroke-wrapper-76_9357">
+            <div class="Pixso-rectangle-76_9357"></div>
+            <div class="stroke-76_9357"></div>
+          </div>
+          <p id="76_9358" class="Pixso-paragraph-76_9358">Professional Support</p>
+          <div id="76_9359" class="Pixso-rectangle-76_9359"></div>
+          <p id="76_9360" class="Pixso-paragraph-76_9360">Fast Response</p>
+          <div id="76_9361" class="Pixso-rectangle-76_9361"></div>
+          <p id="76_9362" class="Pixso-paragraph-76_9362">Issue resolved</p>
+          <div id="76_9363" class="stroke-wrapper-76_9363">
+            <div class="Pixso-rectangle-76_9363"></div>
+            <div class="stroke-76_9363"></div>
+          </div>
+          <p id="76_9364" class="Pixso-paragraph-76_9364">Clear Explanation</p>
+          <div id="76_9365" class="Pixso-rectangle-76_9365"></div>
+          <p id="76_9366" class="Pixso-paragraph-76_9366">Friendly</p>
+        </div>
+      </div>
+      <div id="76_9367" class="Pixso-frame-76_9367">
+        <p id="76_9368" class="Pixso-paragraph-76_9368">What could we have done better?</p>
+        <div id="76_9369" class="Pixso-rectangle-76_9369"></div>
+        <p id="76_9370" class="Pixso-paragraph-76_9370">very good</p>
+        <p id="76_9371" class="Pixso-paragraph-76_9371 fill-文字t4-40-76_16056-paragraph">40/500</p>
+      </div>
+      <div id="76_9372" class="Pixso-group-76_9372">
+        <div id="76_9373" class="Pixso-frame-76_9373">
+          <div id="76_9374" class="Pixso-group-76_9374">
+            <div id="76_9375" class="Pixso-rectangle-76_9375"></div>
+            <div id="76_9376" class="Pixso-rectangle-76_9376"></div>
+            <div id="76_9377" class="Pixso-vector-76_9377"></div>
+            <div id="76_9389" class="Pixso-instance-76_9389">
+              <div id="102_1223" class="Pixso-group-102_1223">
+                <div id="102_1224" class="stroke-wrapper-102_1224">
+                  <div class="Pixso-rectangle-102_1224"></div>
+                  <div class="stroke-102_1224 stroke-字体色f1-76_16042"></div>
+                </div>
+                <div id="102_1225" class="Pixso-vector-102_1225"></div>
+                <div id="102_1226" class="Pixso-rectangle-102_1226 fill-字体色f1-76_16042"></div>
+              </div>
+              <div id="102_1227" class="Pixso-vector-102_1227"></div>
+              <div id="102_1231" class="Pixso-vector-102_1231"></div>
+              <div id="102_1236" class="Pixso-frame-102_1236">
+                <p id="102_1237" class="Pixso-paragraph-102_1237 fill-字体色f1-76_16042-paragraph">9:41</p>
+              </div>
+            </div>
+            <p id="76_9390" class="Pixso-paragraph-76_9390 fill-字体色f1-76_16042-paragraph">rate service</p>
+          </div>
+        </div>
+        <div id="76_9391" class="Pixso-instance-76_9391">
+          <div id="102_1293" class="Pixso-group-102_1293">
+            <div id="102_1294" class="stroke-wrapper-102_1294">
+              <div class="Pixso-rectangle-102_1294"></div>
+              <div class="stroke-102_1294 stroke-字体色f1-76_16042"></div>
+            </div>
+            <div id="102_1295" class="Pixso-vector-102_1295"></div>
+            <div id="102_1296" class="Pixso-rectangle-102_1296 fill-字体色f1-76_16042"></div>
+          </div>
+          <div id="102_1297" class="Pixso-vector-102_1297"></div>
+          <div id="102_1301" class="Pixso-vector-102_1301"></div>
+          <div id="102_1306" class="Pixso-frame-102_1306">
+            <p id="102_1307" class="Pixso-paragraph-102_1307 fill-字体色f1-76_16042-paragraph">9:41</p>
+          </div>
+        </div>
+      </div>
+      <div id="76_9392" class="Pixso-group-76_9392">
+        <div id="76_9393" class="Pixso-rectangle-76_9393"></div>
+        <p id="76_9394" class="Pixso-paragraph-76_9394">submit</p>
+      </div>
+      <div id="76_9395" class="Pixso-instance-76_9395">
+        <div id="102_1218" class="Pixso-group-102_1218">
+          <div id="102_1219" class="Pixso-frame-102_1219">
+            <div id="102_1220" class="Pixso-rectangle-102_1220"></div>
+            <div id="102_1221" class="Pixso-rectangle-102_1221"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<script>
+
+</script>
+
+<script>document.addEventListener('click',function(e){let t=(e.target.innerText||'').trim();let id=location.pathname.split('/').pop(); if(id==='90-979.html'||id==='90-8.html'){if(t==='My Tickets'||t==='View All')parent.go(1);else if(t==='Feedback with SolaXPower'||t==='On-site Service')parent.go(2);}else if(id==='76-9653.html'){if(t==='Rate Service'||t==='★ Rate Service') {parent.go(3)} else if(t.includes('Conversation With')||t.includes('Conversation with'))parent.go(2);}else if(id==='76-9782.html'||id==='76-10972.html'){if(t.includes('Status Log'))parent.change('76-9396');else if(t==='Rate Service'||t==='★ Rate Service')parent.go(3);} });</script><script>if(parent.demoRating){let n=parent.demoRating,stars=document.getElementById('76_9349');stars.style.backgroundImage='none';stars.innerHTML='<span style="font-size:29px;letter-spacing:10px;color:#f3b52e;white-space:nowrap">'+'★'.repeat(n)+'<span style="color:#b6c1ce">'+'☆'.repeat(5-n)+'</span></span>';document.getElementById('76_9355').textContent=['','Poor','Fair','Average','Good','Excellent'][n];document.getElementById('76_9370').textContent=parent.demoComment||'—';document.getElementById('76_9371').textContent=(parent.demoComment||'').length+'/500';['9358','9360','9362','9364','9366'].forEach((x,i)=>{let tag=document.getElementById('76_'+x);tag.style.color=parent.demoTags[i]?'#285ad3':'#9da4b2'})}</script></body>
+</html>

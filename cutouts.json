@@ -1,0 +1,290 @@
+[
+  {
+    "name": "bg_service_provider_platinum",
+    "source": "bg",
+    "id": "114:17031",
+    "width": 343,
+    "height": 162,
+    "label": "铂金服务商背景"
+  },
+  {
+    "name": "ic_ticket_onsite_completed_gray",
+    "source": "状态图标 · Completed",
+    "id": "114:49066",
+    "width": 14,
+    "height": 14,
+    "label": "上门已完成 · 灰色"
+  },
+  {
+    "name": "ic_ticket_onsite_scheduled_gray",
+    "source": "状态图标 · Scheduled",
+    "id": "114:49063",
+    "width": 14,
+    "height": 14,
+    "label": "上门已预约 · 灰色"
+  },
+  {
+    "name": "ic_ticket_onsite_scheduling_gray",
+    "source": "状态图标 · Scheduling",
+    "id": "114:49059",
+    "width": 14,
+    "height": 14,
+    "label": "上门待预约 · 灰色"
+  },
+  {
+    "name": "ic_ticket_onsite_pending_white",
+    "source": "状态图标 · Pending",
+    "id": "114:49056",
+    "width": 14,
+    "height": 14,
+    "label": "上门待派单 · 白色"
+  },
+  {
+    "name": "ic_ticket_onsite_scheduling_white",
+    "source": "状态图标 · Scheduling",
+    "id": "114:49071",
+    "width": 14,
+    "height": 14,
+    "label": "上门待预约 · 白色"
+  },
+  {
+    "name": "ic_ticket_onsite_pending_gray",
+    "source": "状态图标 · Pending",
+    "id": "114:49068",
+    "width": 14,
+    "height": 14,
+    "label": "上门待派单 · 灰色"
+  },
+  {
+    "name": "ic_ticket_onsite_scheduled_white",
+    "source": "状态图标 · Scheduled",
+    "id": "114:49082",
+    "width": 14,
+    "height": 14,
+    "label": "上门已预约 · 白色"
+  },
+  {
+    "name": "ic_ticket_onsite_completed_white",
+    "source": "状态图标 · Completed",
+    "id": "114:49087",
+    "width": 14,
+    "height": 14,
+    "label": "上门已完成 · 白色"
+  },
+  {
+    "name": "ic_ticket_delivery_delivered_gray",
+    "source": "状态图标 · Delivered",
+    "id": "114:49095",
+    "width": 14,
+    "height": 14,
+    "label": "已送达 · 灰色"
+  },
+  {
+    "name": "ic_ticket_delivery_in_transit_gray",
+    "source": "状态图标 · In Transit",
+    "id": "114:49093",
+    "width": 14,
+    "height": 14,
+    "label": "运输中 · 灰色"
+  },
+  {
+    "name": "ic_ticket_delivery_shipped_gray",
+    "source": "状态图标 · Shipped",
+    "id": "114:49091",
+    "width": 14,
+    "height": 14,
+    "label": "已发货 · 灰色"
+  },
+  {
+    "name": "ic_ticket_delivery_pending_white",
+    "source": "状态图标 · Pending Shipment",
+    "id": "114:49089",
+    "width": 14,
+    "height": 14,
+    "label": "待发货 · 白色"
+  },
+  {
+    "name": "ic_ticket_delivery_shipped_white",
+    "source": "状态图标 · Shipped",
+    "id": "114:49099",
+    "width": 14,
+    "height": 14,
+    "label": "已发货 · 白色"
+  },
+  {
+    "name": "ic_ticket_delivery_pending_gray",
+    "source": "状态图标 · Pending Shipment",
+    "id": "114:49097",
+    "width": 14,
+    "height": 14,
+    "label": "待发货 · 灰色"
+  },
+  {
+    "name": "ic_ticket_delivery_in_transit_white",
+    "source": "状态图标 · In Transit",
+    "id": "114:49102",
+    "width": 14,
+    "height": 14,
+    "label": "运输中 · 白色"
+  },
+  {
+    "name": "ic_ticket_delivery_delivered_white",
+    "source": "状态图标 · Delivered",
+    "id": "114:49107",
+    "width": 14,
+    "height": 14,
+    "label": "已送达 · 白色"
+  },
+  {
+    "name": "ic_app_marketing",
+    "source": "加入营销计划",
+    "id": "114:49038",
+    "width": 24.0,
+    "height": 24.0,
+    "label": "营销计划"
+  },
+  {
+    "name": "ic_app_newsletter",
+    "source": "Newsletter",
+    "id": "114:49029",
+    "width": 24,
+    "height": 24,
+    "label": "资讯订阅"
+  },
+  {
+    "name": "ic_app_benefits",
+    "source": "Application · benefits",
+    "id": "114:49025",
+    "width": 24,
+    "height": 24,
+    "label": "权益"
+  },
+  {
+    "name": "ic_app_bind_device",
+    "source": "绑定设备",
+    "id": "114:49019",
+    "width": 24,
+    "height": 24,
+    "label": "绑定设备"
+  },
+  {
+    "name": "ic_app_tou_template",
+    "source": "tou template",
+    "id": "114:49013",
+    "width": 24.0,
+    "height": 24.0,
+    "label": "分时电价模板"
+  },
+  {
+    "name": "ic_app_network",
+    "source": "Application · network",
+    "id": "114:49009",
+    "width": 24,
+    "height": 24,
+    "label": "网络"
+  },
+  {
+    "name": "ic_support_service_group",
+    "source": "RMA请求",
+    "id": "114:43180",
+    "width": 32.0,
+    "height": 32.0,
+    "label": "服务群组"
+  },
+  {
+    "name": "ic_support_rma_claim",
+    "source": " RMA请求",
+    "id": "114:38585",
+    "width": 32.0,
+    "height": 32.0,
+    "label": "RMA 申请"
+  },
+  {
+    "name": "ic_support_online_service",
+    "source": "设备质保",
+    "id": "114:33173",
+    "width": 32.0,
+    "height": 32.0,
+    "label": "在线服务"
+  },
+  {
+    "name": "ic_app_join_vpp",
+    "source": "加入VPP",
+    "id": "114:33164",
+    "width": 24,
+    "height": 24,
+    "label": "加入 VPP"
+  },
+  {
+    "name": "ic_app_csip_aus",
+    "source": "CSIP-AUS",
+    "id": "114:33159",
+    "width": 24,
+    "height": 24,
+    "label": "CSIP AUS"
+  },
+  {
+    "name": "ic_app_local_access",
+    "source": "Application · local access",
+    "id": "114:33153",
+    "width": 24,
+    "height": 24,
+    "label": "本地访问"
+  },
+  {
+    "name": "ic_app_live_data",
+    "source": "Application · live data",
+    "id": "114:33149",
+    "width": 24.0,
+    "height": 24.0,
+    "label": "实时数据"
+  },
+  {
+    "name": "ic_support_warranty",
+    "source": "设备质保",
+    "id": "114:28688",
+    "width": 32.0,
+    "height": 32.0,
+    "label": "设备质保"
+  },
+  {
+    "name": "ic_support_feedback",
+    "source": " RMA请求",
+    "id": "114:19848",
+    "width": 32.0,
+    "height": 32.0,
+    "label": "反馈"
+  },
+  {
+    "name": "ic_support_manual",
+    "source": "icon",
+    "id": "114:17049",
+    "width": 32.0,
+    "height": 32.0,
+    "label": "用户手册"
+  },
+  {
+    "name": "bg_service_provider_silver",
+    "source": "bg",
+    "id": "114:17026",
+    "width": 343,
+    "height": 162,
+    "label": "白银服务商背景"
+  },
+  {
+    "name": "bg_ticket_empty",
+    "source": "bg",
+    "id": "114:17041",
+    "width": 343,
+    "height": 80,
+    "label": "工单空状态背景"
+  },
+  {
+    "name": "bg_service_provider_gold",
+    "source": "bg",
+    "id": "114:17036",
+    "width": 343,
+    "height": 162,
+    "label": "黄金服务商背景"
+  }
+]

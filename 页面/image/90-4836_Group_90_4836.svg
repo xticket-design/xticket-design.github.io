@@ -1,0 +1,24 @@
+<svg viewBox="0 0 17.8433 17.4465" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="17.843262" height="17.446533" fill="none" customFrame="#000000">
+	<defs>
+		<g id="pixso_custom_effect_28">
+			<effect x="0.000000" y="1.019608" visibility="visible" fill="rgb(0,0,0)" fill-opacity="0.150000006" effectType="dropShadow" stdDeviation="2.0392158" radius="0" />
+		</g>
+		<filter id="filter_28" width="17.843262" height="17.446533" x="0.000000" y="0.000000" filterUnits="userSpaceOnUse" customEffect="url(#pixso_custom_effect_28)" color-interpolation-filters="sRGB">
+			<feFlood flood-opacity="0" result="BackgroundImageFix" />
+			<feColorMatrix result="hardAlpha" in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1.66667 0 " />
+			<feOffset dx="0.000000" dy="1.019608" in="hardAlpha" />
+			<feGaussianBlur stdDeviation="0.679738581" />
+			<feComposite k2="-1" k3="1" in2="hardAlpha" operator="out" />
+			<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.15 0 " />
+			<feBlend result="effect_dropShadow_1" in2="BackgroundImageFix" mode="normal" />
+			<feBlend result="shape" in="SourceGraphic" in2="effect_dropShadow_1" mode="normal" />
+		</filter>
+	</defs>
+	<g id="组合 1775" filter="url(#filter_28)">
+		<path id="矩形 2254" d="M7.58047 5.76057L10.1185 4.46063C10.7373 4.14366 11.4708 4.14366 12.0897 4.46063L14.6277 5.76057C15.3498 6.13044 15.8041 6.8735 15.8041 7.68486L15.8041 12.2254C15.8041 13.4195 14.8361 14.3875 13.642 14.3875L8.56608 14.3875C7.37202 14.3875 6.40405 13.4195 6.40405 12.2254L6.40405 7.68486C6.40405 6.8735 6.85832 6.13044 7.58047 5.76057Z" opacity="0.600000024" fill="rgb(255,255,255)" fill-rule="evenodd" />
+		<path id="矩形 2255" d="M3.01416 3.40075L7.09634 1.23404C7.63441 0.948444 8.27913 0.948444 8.81721 1.23404L12.8994 3.40075C13.4992 3.71914 13.8742 4.34274 13.8742 5.02185L13.8742 12.5523C13.8742 13.566 13.0526 14.3876 12.0389 14.3876L3.8746 14.3876C2.861 14.3876 2.03931 13.566 2.03931 12.5523L2.03931 5.02185C2.03931 4.34274 2.41431 3.71914 3.01416 3.40075Z" fill="rgb(255,255,255)" fill-rule="evenodd" />
+		<circle id="椭圆 268" cx="7.95693207" cy="6.81777191" r="1.3438952" fill="rgb(196,196,196)" fill-opacity="0" />
+		<circle id="椭圆 268" cx="7.95693207" cy="6.81777191" r="1.3438952" stroke="rgb(44,113,228)" stroke-width="0.917647" />
+		<path id="椭圆 270" d="M5.28052 10.8715C5.28052 9.39335 6.4788 8.19507 7.95695 8.19507C9.4351 8.19507 10.6334 9.39335 10.6334 10.8715" stroke="rgb(44,113,228)" stroke-linecap="round" stroke-width="0.917647" />
+	</g>
+</svg>

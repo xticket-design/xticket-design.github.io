@@ -1,0 +1,21 @@
+<svg viewBox="0 0 22.344 20.7407" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="22.343994" height="20.740723" fill="none" customFrame="#000000">
+	<defs>
+		<g id="pixso_custom_effect_14">
+			<effect x="0.000000" y="1.185185" visibility="visible" fill="rgb(0,0,0)" fill-opacity="0.150000006" effectType="dropShadow" stdDeviation="2.37036991" radius="0" />
+		</g>
+		<filter id="filter_14" width="22.343994" height="20.740723" x="0.000000" y="0.000000" filterUnits="userSpaceOnUse" customEffect="url(#pixso_custom_effect_14)" color-interpolation-filters="sRGB">
+			<feFlood flood-opacity="0" result="BackgroundImageFix" />
+			<feColorMatrix result="hardAlpha" in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1.66667 0 " />
+			<feOffset dx="0.000000" dy="1.185185" in="hardAlpha" />
+			<feGaussianBlur stdDeviation="0.790123284" />
+			<feComposite k2="-1" k3="1" in2="hardAlpha" operator="out" />
+			<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.15 0 " />
+			<feBlend result="effect_dropShadow_1" in2="BackgroundImageFix" mode="normal" />
+			<feBlend result="shape" in="SourceGraphic" in2="effect_dropShadow_1" mode="normal" />
+		</filter>
+	</defs>
+	<g id="组合 1775" filter="url(#filter_14)">
+		<path id="合并" d="M11.2067 8.76878C10.3097 8.08861 9.73042 7.01144 9.73042 5.79896C9.73042 3.74178 11.3981 2.0741 13.4553 2.0741C15.5125 2.0741 17.1802 3.74178 17.1802 5.79896C17.1802 7.01144 16.6008 8.08861 15.7039 8.76878C18.196 9.59845 19.9738 11.7676 19.9738 14.3128C19.9738 15.1661 19.2821 15.8578 18.4288 15.8578L8.48174 15.8578C7.62848 15.8578 6.93677 15.1661 6.93677 14.3128C6.93677 11.7676 8.71455 9.59845 11.2067 8.76878Z" opacity="0.600000024" fill="rgb(255,255,255)" fill-rule="evenodd" />
+		<path id="合并" d="M7.28135 8.94009C6.27477 8.14439 5.62885 6.91254 5.62885 5.52983C5.62885 3.13035 7.57401 1.18518 9.9735 1.18518C12.373 1.18518 14.3181 3.13035 14.3181 5.52983C14.3181 6.91254 13.6722 8.14439 12.6656 8.94009C15.536 9.92473 17.5766 12.4381 17.5766 15.3831C17.5766 16.3784 16.7698 17.1852 15.7746 17.1852L4.17241 17.1852C3.17716 17.1852 2.37036 16.3784 2.37036 15.3831C2.37036 12.4381 4.41101 9.92473 7.28135 8.94009Z" fill="rgb(255,255,255)" fill-rule="evenodd" />
+	</g>
+</svg>

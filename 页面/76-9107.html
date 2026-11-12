@@ -1,0 +1,1328 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pixso HTML</title>
+  <style>
+:root, 
+[data-collection-0-9-mode=""] {
+  /* 浅色 */
+  --color-t2: rgba(20, 30, 61, 0.7);
+  --color-t3: rgba(20, 30, 61, 0.5);
+}
+
+[data-collection-0-9-mode=""] {
+  /* 深色 */
+  --color-t2: rgba(255, 255, 255, 0.7);
+  --color-t3: rgba(255, 255, 255, 0.5);
+}
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+ol,ul,menu {
+  padding-inline-start: 0;
+  list-style: none;
+}
+
+ol li::marker, ul li::before {
+  letter-spacing: 0;
+}
+
+.scroll-container > div {
+  width: 100%;
+}
+
+.container > div {
+  width: 100%;
+}
+
+.Pixso-canvas-0_1 > div {
+  width: 100%;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body { 
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  background-color: white;
+}
+    
+span {
+  word-break: break-word;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+}
+
+.fill-背景b1-常规大背景-76_16047 {
+  background-color: rgba(246, 248, 250, 1);
+}
+
+.stroke-字体色f1-76_16042 {
+  border-color: rgba(20, 30, 61, 1);
+}
+
+.fill-字体色f1-76_16042 {
+  background-color: rgba(20, 30, 61, 1);
+}
+
+.fill-字体色f1-76_16042-paragraph,.fill-文字t1-标题-76_16045-paragraph {
+  color: rgba(20, 30, 61, 1);
+}
+.scroll-container {
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+}
+
+.Pixso-canvas-0_1,.Pixso-frame-76_9107 {
+  width: 100%;
+  position: relative;
+  flex-shrink: 0;
+}
+
+.Pixso-canvas-0_1 {
+  height: 100%;
+}
+
+.Pixso-frame-76_9107 {
+  height: 812px;
+  min-width: 375px;
+  overflow: hidden;
+}
+
+.Pixso-frame-76_9108,.Pixso-group-76_9109,.Pixso-group-102_1144,.Pixso-frame-102_1145,.Pixso-rectangle-76_9110,.Pixso-instance-76_9113 {
+  left: 0%;
+  right: 0%;
+}
+
+.Pixso-frame-76_9108,.Pixso-group-76_9109,.Pixso-group-102_1144,.Pixso-frame-102_1145,.Pixso-rectangle-76_9110 {
+  width: 100%;
+  position: absolute;
+}
+
+.Pixso-frame-76_9108 {
+  height: 10.84%;
+  top: 0%;
+  bottom: 89.16%;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.Pixso-group-76_9109,.Pixso-group-102_1144,.Pixso-frame-102_1145 {
+  height: 100%;
+  top: 0%;
+  bottom: 0%;
+}
+
+.Pixso-rectangle-76_9110 {
+  height: 50%;
+  top: 50%;
+  bottom: 0%;
+}
+
+.Pixso-vector-76_9111,.Pixso-vector-102_1479,.Pixso-vector-102_1481,.Pixso-vector-102_1485,.Pixso-vector-76_9116,.Pixso-vector-76_9122,.Pixso-vector-76_9130,.Pixso-vector-76_9137,.Pixso-vector-76_9141,.Pixso-vector-76_9146,.Pixso-vector-76_9153,.Pixso-vector-76_9156,.Pixso-vector-76_9159,.Pixso-vector-76_9160,.Pixso-vector-76_9167,.Pixso-vector-76_9174,.Pixso-vector-76_9177,.Pixso-vector-76_9180,.Pixso-vector-76_9187,.Pixso-vector-76_9190,.Pixso-vector-76_9193,.Pixso-rectangle-76_9199,.Pixso-vector-76_9200,.Pixso-vector-76_9207,.Pixso-vector-76_9214,.Pixso-vector-76_9217,.Pixso-vector-76_9220,.Pixso-vector-76_9237,.Pixso-vector-76_9240,.Pixso-vector-76_9244,.Pixso-vector-76_9258 {
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.Pixso-vector-76_9111 {
+  width: 5.87%;
+  height: 25%;
+  background-image: url(./image/76-9111_svg.svg);
+  position: absolute;
+  left: 3.2%;
+  right: 90.93%;
+  top: 62.5%;
+  bottom: 12.5%;
+}
+
+.Pixso-instance-76_9113 {
+  width: 100%;
+  height: 50%;
+  position: absolute;
+  top: 0%;
+  bottom: 50%;
+}
+
+.Pixso-group-102_1477 {
+  width: 24.328037px;
+  height: 11.333333px;
+  position: absolute;
+  right: 14.338681000000005px;
+  top: 17.333334px;
+}
+
+.Pixso-rectangle-102_1478,.stroke-102_1478 {
+  border-radius: 2.666667px 2.666667px 2.666667px 2.666667px;
+  opacity: 0.35;
+}
+
+.Pixso-rectangle-102_1478 {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: 0;
+}
+
+.stroke-wrapper-102_1478 {
+  position: absolute;
+  isolation: isolate;
+  top: 0px;
+  right: 2.3280369999999984px;
+  width: 22px;
+  height: 11.333333px;
+}
+
+.stroke-102_1478,.stroke-76_9199 {
+  pointer-events: none;
+  z-index: 1;
+  border-style: solid;
+  box-sizing: border-box;
+}
+
+.stroke-102_1478 {
+  position: absolute;
+  inset: 0px;
+  border-width: 1px;
+}
+
+.Pixso-vector-102_1479 {
+  width: 1.328125px;
+  height: 4px;
+  background-image: url(./image/102-1479_Cap.svg);
+  position: absolute;
+  right: -0.00008800000000164232px;
+  top: 3.666666px;
+}
+
+.Pixso-rectangle-102_1480 {
+  width: 18px;
+  height: 7.333333px;
+  position: absolute;
+  right: 4.328036999999998px;
+  top: 2px;
+  border-radius: 1.333333px 1.333333px 1.333333px 1.333333px;
+}
+
+.Pixso-vector-102_1481,.Pixso-vector-102_1485 {
+  position: absolute;
+}
+
+.Pixso-vector-102_1481 {
+  width: 15.33349609375px;
+  height: 11px;
+  background-image: url(./image/102-1481_Wifi.svg);
+  right: 43.66650390625px;
+  top: 17.330673px;
+}
+
+.Pixso-vector-102_1485 {
+  width: 17px;
+  height: 10.666748046875px;
+  background-image: url(./image/102-1485_CellularConnection.svg);
+  right: 64px;
+  top: 17.666668px;
+}
+
+.Pixso-frame-102_1490 {
+  width: 14.4%;
+  height: 43.18%;
+  position: absolute;
+  left: 5.6%;
+  right: 80%;
+  top: 31.82%;
+  bottom: 25%;
+}
+
+.Pixso-paragraph-102_1491 {
+  font-size: 15px;
+  font-family: "SF Pro Text-Semibold";
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: -0.3px;
+  font-feature-settings: "locl" 0;
+  text-decoration: none;
+  width: calc(100% - 0px);
+  height: auto;
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 50%;
+  transform: translateY(calc(-50% + -0.17000000000000084px));
+}
+
+.Pixso-frame-76_9114,.Pixso-frame-76_9129,.frame-content-76_9129,.frame-content-76_9136,.Pixso-frame-76_9136,.Pixso-frame-76_9148,.Pixso-frame-76_9166,.frame-content-76_9166,.frame-content-76_9173,.Pixso-frame-76_9173,.Pixso-frame-76_9182,.Pixso-frame-76_9206,.frame-content-76_9206,.frame-content-76_9213,.Pixso-frame-76_9213,.Pixso-frame-76_9222 {
+  flex-direction: row;
+  align-items: center;
+}
+
+.Pixso-frame-76_9114 {
+  width: auto;
+  height: auto;
+  position: absolute;
+  left: 29.07%;
+  right: 25.07%;
+  top: 63.64%;
+  bottom: 13.64%;
+  display: flex;
+  gap: 4px;
+  justify-content: flex-start;
+}
+
+.Pixso-paragraph-76_9115,.Pixso-paragraph-76_9120,.Pixso-paragraph-76_9134,.Pixso-paragraph-76_9135,.Pixso-paragraph-76_9140,.Pixso-paragraph-76_9145,.Pixso-paragraph-76_9149,.Pixso-paragraph-76_9171,.Pixso-paragraph-76_9172,.Pixso-paragraph-76_9176,.Pixso-paragraph-76_9179,.Pixso-paragraph-76_9183,.Pixso-paragraph-76_9197,.Pixso-paragraph-76_9211,.Pixso-paragraph-76_9212,.Pixso-paragraph-76_9216,.Pixso-paragraph-76_9219,.Pixso-paragraph-76_9223 {
+  text-align: left;
+  letter-spacing: 0px;
+}
+
+.Pixso-paragraph-76_9115,.Pixso-paragraph-76_9120,.Pixso-paragraph-76_9135,.Pixso-paragraph-76_9140,.Pixso-paragraph-76_9149,.Pixso-paragraph-76_9172,.Pixso-paragraph-76_9176,.Pixso-paragraph-76_9183,.Pixso-paragraph-76_9197,.Pixso-paragraph-76_9212,.Pixso-paragraph-76_9216,.Pixso-paragraph-76_9223 {
+  white-space: pre;
+  flex-grow: 0;
+}
+
+.Pixso-paragraph-76_9115 {
+  font-size: 17px;
+  font-family: "Inter-Medium";
+  font-weight: 400;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-decoration: none;
+  text-transform: capitalize;
+  color: rgba(20, 30, 61, 1);
+  width: auto;
+  height: auto;
+  position: relative;
+  flex-shrink: 0;
+}
+
+.Pixso-vector-76_9116 {
+  width: 18px;
+  height: 18px;
+  background-image: url(./image/76-9116_Group_76_9116.svg);
+  position: relative;
+  flex-shrink: 0;
+}
+
+.Pixso-instance-76_9119,.Pixso-rectangle-102_1146 {
+  width: 375px;
+  height: 34px;
+  position: absolute;
+  left: 0px;
+}
+
+.Pixso-instance-76_9119 {
+  top: 778px;
+}
+
+.Pixso-rectangle-102_1146 {
+  top: 0px;
+}
+
+.Pixso-rectangle-102_1147 {
+  width: 134px;
+  height: 5px;
+  position: absolute;
+  left: 0.5px;
+  right: -0.5px;
+  margin-left: auto;
+  margin-right: auto;
+  bottom: 8px;
+  border-radius: 100px 100px 100px 100px;
+  background-color: rgba(0, 0, 0, 1);
+}
+
+.Pixso-paragraph-76_9120 {
+  font-size: 14px;
+  font-family: "Inter-Medium";
+  font-weight: 400;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-decoration: none;
+  color: rgba(20, 30, 61, 0.5);
+  width: auto;
+  height: auto;
+  position: absolute;
+  left: 28px;
+  top: 100px;
+}
+
+.Pixso-group-76_9121 {
+  width: 343px;
+  height: 363px;
+  position: absolute;
+  left: 16px;
+  top: 309px;
+}
+
+.Pixso-vector-76_9122 {
+  width: 18px;
+  height: 4.96%;
+  background-image: url(./image/76-9122_svg4.svg);
+  position: absolute;
+  right: 12px;
+  top: 0%;
+  bottom: 95.04%;
+}
+
+.Pixso-group-76_9126,.Pixso-rectangle-76_9127 {
+  width: 343px;
+  height: 162px;
+  position: absolute;
+  left: 0px;
+}
+
+.Pixso-group-76_9126 {
+  top: 27px;
+}
+
+.Pixso-rectangle-76_9127 {
+  top: 0px;
+  border-radius: 10px 10px 10px 10px;
+  background-color: rgba(255, 254.74501, 254.74501, 1);
+}
+
+.Pixso-frame-76_9128,.Pixso-frame-76_9129,.frame-content-76_9129,.frame-content-76_9136,.Pixso-frame-76_9165,.Pixso-frame-76_9166,.frame-content-76_9166,.frame-content-76_9173,.Pixso-frame-76_9205,.Pixso-frame-76_9206,.frame-content-76_9206,.frame-content-76_9213 {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.Pixso-frame-76_9128,.Pixso-frame-76_9165,.Pixso-frame-76_9205 {
+  gap: 8px;
+  align-items: flex-start;
+}
+
+.Pixso-frame-76_9128 {
+  width: auto;
+  height: auto;
+  position: absolute;
+  left: 12px;
+  top: 108px;
+  flex-direction: column;
+}
+
+.Pixso-frame-76_9129 {
+  width: 319.15332px;
+  height: 16px;
+  position: relative;
+  flex-shrink: 0;
+}
+
+.frame-content-76_9129,.frame-content-76_9136 {
+  gap: 4px;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.Pixso-vector-76_9130,.Pixso-paragraph-76_9134,.Pixso-paragraph-76_9135,.Pixso-frame-76_9136,.Pixso-vector-76_9137,.Pixso-paragraph-76_9140,.Pixso-vector-76_9141 {
+  position: relative;
+  flex-shrink: 0;
+}
+
+.Pixso-vector-76_9130 {
+  width: 16px;
+  height: 16px;
+  background-image: url(./image/76-9130_Frame_76_9130.svg);
+}
+
+.Pixso-paragraph-76_9134 {
+  font-size: 12px;
+  font-family: "Inter-Regular";
+  font-weight: 400;
+  font-feature-settings: "locl" 0;
+  text-decoration: underline;
+  color: rgba(20, 30, 61, 0.5);
+  width: 261.15332px;
+  height: auto;
+}
+
+.Pixso-paragraph-76_9135 {
+  font-size: 12px;
+  font-family: "Inter-Medium";
+  font-weight: 400;
+  text-decoration: none;
+  width: auto;
+  height: auto;
+}
+
+.Pixso-frame-76_9136 {
+  width: 165px;
+  height: 16px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.Pixso-vector-76_9137 {
+  width: 16px;
+  height: 16px;
+  background-image: url(./image/76-9137_email.svg);
+}
+
+.Pixso-paragraph-76_9140 {
+  font-size: 12px;
+  font-family: "Inter-Regular";
+  font-weight: 400;
+  text-decoration: none;
+  color: rgba(20, 30, 61, 0.5);
+  width: auto;
+  height: auto;
+}
+
+.Pixso-vector-76_9141 {
+  width: 16px;
+  height: 16px;
+  background-image: url(./image/76-9141_copy.svg);
+}
+
+.Pixso-paragraph-76_9145 {
+  font-size: 16px;
+  font-family: "Inter-Medium";
+  font-weight: 400;
+  line-height: 22px;
+  text-decoration: none;
+  width: 270px;
+  height: auto;
+  position: absolute;
+  left: 12px;
+  top: 48px;
+}
+
+.Pixso-vector-76_9146 {
+  width: 343px;
+  height: 0.5px;
+  background-image: url(./image/76-9146_Vector_76_9146.svg);
+  position: absolute;
+  left: 0px;
+  top: 100px;
+}
+
+.Pixso-group-76_9147 {
+  width: 70px;
+  height: 28px;
+  position: absolute;
+  left: 8px;
+  top: 10px;
+}
+
+.Pixso-frame-76_9148,.Pixso-frame-76_9182,.Pixso-frame-76_9222 {
+  gap: 10px;
+  padding: 4px 8px 4px 16px;
+  border-radius: 0px 4px 4px 0px;
+}
+
+.Pixso-frame-76_9148 {
+  width: auto;
+  height: auto;
+  position: absolute;
+  left: 14px;
+  top: 2px;
+  display: flex;
+  justify-content: flex-start;
+  background-color: rgba(255, 245, 224, 1);
+}
+
+.Pixso-paragraph-76_9149 {
+  font-size: 14px;
+  font-family: "Inter-Medium";
+  font-weight: 400;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-decoration: none;
+  text-transform: capitalize;
+  color: rgba(151, 102, 8, 1);
+  width: auto;
+  height: auto;
+  position: relative;
+  flex-shrink: 0;
+}
+
+.Pixso-group-76_9150,.Pixso-group-76_9151 {
+  width: 28px;
+  height: 28px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+.Pixso-vector-76_9153,.Pixso-vector-76_9187,.Pixso-vector-76_9237 {
+  -webkit-mask-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2228%22%20height%3D%2228%22%20viewBox%3D%220%200%2028%2028%22%3E%3Cpath%20d%3D%22M0%200%20H28%20H28%20V28%20V28%20H0%20H0%20V0%20V0%20Z%22%20fill%3D%22white%22%2F%3E%3C%2Fsvg%3E");
+  mask-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2228%22%20height%3D%2228%22%20viewBox%3D%220%200%2028%2028%22%3E%3Cpath%20d%3D%22M0%200%20H28%20H28%20V28%20V28%20H0%20H0%20V0%20V0%20Z%22%20fill%3D%22white%22%2F%3E%3C%2Fsvg%3E");
+  -webkit-mask-size: 28px 28px;
+  mask-size: 28px 28px;
+  -webkit-mask-position: -2.296875px 0px;
+  mask-position: -2.296875px 0px;
+}
+
+.Pixso-vector-76_9153,.Pixso-vector-76_9156,.Pixso-vector-76_9159,.Pixso-vector-76_9187,.Pixso-vector-76_9190,.Pixso-vector-76_9193,.Pixso-vector-76_9237,.Pixso-vector-76_9240,.Pixso-vector-76_9244 {
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+}
+
+.Pixso-vector-76_9153 {
+  position: absolute;
+  inset: -11.68451749352544% -20.32967032967033% -12.950335770745939% -8.791208791208792% ;
+  background-image: url(./image/76-9153_chuji4.png);
+}
+
+.vector-wrapper-76_9153 {
+  position: absolute;
+  left: 4.046875px;
+  top: 2.625px;
+  width: 19.90625px;
+  height: 22.465626px;
+}
+
+.Pixso-group-76_9154 {
+  width: 24.000002px;
+  height: 24.000002px;
+  position: absolute;
+  left: 2px;
+  top: 2px;
+}
+
+.Pixso-vector-76_9156,.Pixso-vector-76_9190,.Pixso-vector-76_9240 {
+  -webkit-mask-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224.000002%22%20height%3D%2224.000002%22%20viewBox%3D%220%200%2024.000002%2024.000002%22%3E%3Cpath%20d%3D%22M0%200%20H24.000002%20H24.000002%20V24.000002%20V24.000002%20H0%20H0%20V0%20V0%20Z%22%20fill%3D%22white%22%2F%3E%3C%2Fsvg%3E");
+  mask-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224.000002%22%20height%3D%2224.000002%22%20viewBox%3D%220%200%2024.000002%2024.000002%22%3E%3Cpath%20d%3D%22M0%200%20H24.000002%20H24.000002%20V24.000002%20V24.000002%20H0%20H0%20V0%20V0%20Z%22%20fill%3D%22white%22%2F%3E%3C%2Fsvg%3E");
+  -webkit-mask-size: 24.000002px 24.000002px;
+  mask-size: 24.000002px 24.000002px;
+  -webkit-mask-position: -1.5px 0px;
+  mask-position: -1.5px 0px;
+}
+
+.Pixso-vector-76_9156 {
+  width: 21px;
+  height: 23.699951171875px;
+  background-image: url(./image/76-9156_chuji3.png);
+  position: absolute;
+  left: 1.5px;
+  top: 0px;
+}
+
+.Pixso-group-76_9157 {
+  width: 19.25px;
+  height: 19.25px;
+  position: absolute;
+  left: 4.375px;
+  top: 4.375px;
+}
+
+.Pixso-vector-76_9159,.Pixso-vector-76_9160 {
+  position: absolute;
+}
+
+.Pixso-vector-76_9159,.Pixso-vector-76_9193,.Pixso-vector-76_9244 {
+  -webkit-mask-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2219.25%22%20height%3D%2219.25%22%20viewBox%3D%220%200%2019.25%2019.25%22%3E%3Cpath%20d%3D%22M0%200%20H19.25%20H19.25%20V19.25%20V19.25%20H0%20H0%20V0%20V0%20Z%22%20fill%3D%22white%22%2F%3E%3C%2Fsvg%3E");
+  mask-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2219.25%22%20height%3D%2219.25%22%20viewBox%3D%220%200%2019.25%2019.25%22%3E%3Cpath%20d%3D%22M0%200%20H19.25%20H19.25%20V19.25%20V19.25%20H0%20H0%20V0%20V0%20Z%22%20fill%3D%22white%22%2F%3E%3C%2Fsvg%3E");
+  -webkit-mask-size: 19.25px 19.25px;
+  mask-size: 19.25px 19.25px;
+}
+
+.Pixso-vector-76_9159,.Pixso-vector-76_9193 {
+  -webkit-mask-position: -1.203125px 0px;
+  mask-position: -1.203125px 0px;
+}
+
+.Pixso-vector-76_9159 {
+  width: 16.84375px;
+  height: 19.00927734375px;
+  background-image: url(./image/76-9159_gaoji.png);
+  left: 1.203125px;
+  top: 0px;
+}
+
+.Pixso-vector-76_9160,.Pixso-vector-76_9258 {
+  right: 4.96%;
+  bottom: 79.01%;
+}
+
+.Pixso-vector-76_9160 {
+  width: 5.83%;
+  height: 12.35%;
+  background-image: url(./image/76-9160_Frame_76_9160.svg);
+  left: 89.21%;
+  top: 8.64%;
+}
+
+.Pixso-group-76_9163,.Pixso-rectangle-76_9164 {
+  width: 343px;
+  height: 162px;
+  position: absolute;
+  left: 0px;
+}
+
+.Pixso-group-76_9163 {
+  top: 201px;
+}
+
+.Pixso-rectangle-76_9164 {
+  top: 0px;
+  border-radius: 10px 10px 10px 10px;
+  background-color: rgba(255, 254.74501, 254.74501, 1);
+}
+
+.Pixso-frame-76_9165 {
+  width: auto;
+  height: auto;
+  position: absolute;
+  left: 12px;
+  top: 108px;
+  flex-direction: column;
+}
+
+.Pixso-frame-76_9166 {
+  width: 319.15332px;
+  height: 16px;
+  position: relative;
+  flex-shrink: 0;
+}
+
+.frame-content-76_9166,.frame-content-76_9173 {
+  gap: 4px;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.Pixso-vector-76_9167,.Pixso-paragraph-76_9171,.Pixso-paragraph-76_9172,.Pixso-frame-76_9173,.Pixso-vector-76_9174,.Pixso-paragraph-76_9176,.Pixso-vector-76_9177 {
+  position: relative;
+  flex-shrink: 0;
+}
+
+.Pixso-vector-76_9167 {
+  width: 16px;
+  height: 16px;
+  background-image: url(./image/76-9167_Frame_76_9167.svg);
+}
+
+.Pixso-paragraph-76_9171 {
+  font-size: 12px;
+  font-family: "Inter-Regular";
+  font-weight: 400;
+  font-feature-settings: "locl" 0;
+  text-decoration: underline;
+  color: rgba(20, 30, 61, 0.5);
+  width: 261.15332px;
+  height: auto;
+}
+
+.Pixso-paragraph-76_9172 {
+  font-size: 12px;
+  font-family: "Inter-Medium";
+  font-weight: 400;
+  text-decoration: none;
+  width: auto;
+  height: auto;
+}
+
+.Pixso-frame-76_9173 {
+  width: 165px;
+  height: 16px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.Pixso-vector-76_9174 {
+  width: 16px;
+  height: 16px;
+  background-image: url(./image/76-9174_Icon0.svg);
+}
+
+.Pixso-paragraph-76_9176 {
+  font-size: 12px;
+  font-family: "Inter-Regular";
+  font-weight: 400;
+  text-decoration: none;
+  color: rgba(20, 30, 61, 0.5);
+  width: auto;
+  height: auto;
+}
+
+.Pixso-vector-76_9177 {
+  width: 16px;
+  height: 16px;
+  background-image: url(./image/76-9177_KHCFDC_0.svg);
+}
+
+.Pixso-paragraph-76_9179 {
+  font-size: 16px;
+  font-family: "Inter-Medium";
+  font-weight: 400;
+  line-height: 22px;
+  text-decoration: none;
+  width: 270px;
+  height: auto;
+  position: absolute;
+  left: 12px;
+  top: 48px;
+}
+
+.Pixso-vector-76_9180 {
+  width: 343px;
+  height: 0.5px;
+  background-image: url(./image/76-9180_Vector_76_9180.svg);
+  position: absolute;
+  left: 0px;
+  top: 100px;
+}
+
+.Pixso-group-76_9181 {
+  width: 76px;
+  height: 28px;
+  position: absolute;
+  left: 8px;
+  top: 10px;
+}
+
+.Pixso-frame-76_9182 {
+  width: auto;
+  height: auto;
+  position: absolute;
+  left: 14px;
+  top: 2px;
+  display: flex;
+  justify-content: flex-start;
+  background-color: rgba(237.924118, 245.57663, 250.446426, 1);
+}
+
+.Pixso-paragraph-76_9183 {
+  font-size: 14px;
+  font-family: "Inter-Medium";
+  font-weight: 400;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-decoration: none;
+  text-transform: capitalize;
+  color: rgba(100, 117, 135, 1);
+  width: auto;
+  height: auto;
+  position: relative;
+  flex-shrink: 0;
+}
+
+.Pixso-group-76_9184,.Pixso-group-76_9185 {
+  width: 28px;
+  height: 28px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+.Pixso-vector-76_9187 {
+  position: absolute;
+  inset: -11.68451749352544% -20.32967032967033% -12.950335770745939% -8.791208791208792% ;
+  background-image: url(./image/76-9187_chuji2.png);
+}
+
+.vector-wrapper-76_9187 {
+  position: absolute;
+  left: 4.046875px;
+  top: 2.625px;
+  width: 19.90625px;
+  height: 22.465626px;
+}
+
+.Pixso-group-76_9188 {
+  width: 24.000002px;
+  height: 24.000002px;
+  position: absolute;
+  left: 2px;
+  top: 2px;
+}
+
+.Pixso-vector-76_9190 {
+  width: 21px;
+  height: 23.699951171875px;
+  background-image: url(./image/76-9190_chuji1.png);
+  position: absolute;
+  left: 1.5px;
+  top: 0px;
+}
+
+.Pixso-group-76_9191 {
+  width: 19.25px;
+  height: 19.25px;
+  position: absolute;
+  left: 4.375px;
+  top: 4.375px;
+}
+
+.Pixso-vector-76_9193 {
+  width: 16.84375px;
+  height: 19.00927734375px;
+  background-image: url(./image/76-9193_zhongji.png);
+  position: absolute;
+  left: 1.203125px;
+  top: 0px;
+}
+
+.Pixso-paragraph-76_9197 {
+  font-size: 14px;
+  font-family: "Inter-Medium";
+  font-weight: 400;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-decoration: none;
+  color: rgba(20, 30, 61, 0.5);
+  width: auto;
+  height: auto;
+  position: absolute;
+  left: 12px;
+  top: 0.5px;
+}
+
+.Pixso-group-76_9198 {
+  width: 343px;
+  height: 162px;
+  position: absolute;
+  left: 16px;
+  top: 127px;
+}
+
+.Pixso-rectangle-76_9199 {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  border-radius: 10px 10px 10px 10px;
+  z-index: 0;
+  background-image: url("data:image/svg+xml;utf8,%3Csvg%20viewBox%3D'0%200%20343%20162'%20preserveAspectRatio%3D'none'%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%3E%0A%20%20%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%20%20%3ClinearGradient%20id%3D'grad'%20gradientUnits%3D'objectBoundingBox'%20x1%3D'0'%20y1%3D'0.5'%20x2%3D'1'%20y2%3D'0.5'%20gradientTransform%3D'matrix(1.0233%2C%200.6420%2C%20-0.6420%2C%204.5875%2C%200.2350%2C%20-1.7937)'%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20stop-color%3D'rgba(225%2C235%2C245%2C0.9)'%20offset%3D'0'%2F%3E%3Cstop%20stop-color%3D'rgba(140%2C150%2C177%2C0.9)'%20offset%3D'1'%2F%3E%0A%20%20%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3C%2Fdefs%3E%0A%20%20%20%20%20%20%3Crect%20width%3D'100%25'%20height%3D'100%25'%20fill%3D'url(%23grad)'%2F%3E%0A%20%20%20%20%3C%2Fsvg%3E");
+  background-position: center;
+}
+
+.stroke-wrapper-76_9199 {
+  position: absolute;
+  isolation: isolate;
+  left: 0px;
+  top: 0px;
+  width: 343px;
+  height: 162px;
+}
+
+.stroke-76_9199 {
+  position: absolute;
+  inset: 0px;
+  border-radius: 10px 10px 10px 10px;
+  border-width: 1px 1px 1px 1px;
+  border-color: rgba(255, 255, 255, 1);
+}
+
+.Pixso-vector-76_9200 {
+  position: absolute;
+  inset: 0% 0% 0% 0% ;
+  background-image: url(./image/76-9200_bg.svg);
+}
+
+.vector-wrapper-76_9200 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 343px;
+  height: 162px;
+}
+
+.Pixso-frame-76_9205 {
+  width: auto;
+  height: auto;
+  position: absolute;
+  left: 12px;
+  top: 108px;
+  flex-direction: column;
+}
+
+.Pixso-frame-76_9206 {
+  width: 319.15332px;
+  height: 16px;
+  position: relative;
+  flex-shrink: 0;
+}
+
+.frame-content-76_9206,.frame-content-76_9213 {
+  gap: 4px;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.Pixso-vector-76_9207,.Pixso-paragraph-76_9211,.Pixso-paragraph-76_9212,.Pixso-frame-76_9213,.Pixso-vector-76_9214,.Pixso-paragraph-76_9216,.Pixso-vector-76_9217 {
+  position: relative;
+  flex-shrink: 0;
+}
+
+.Pixso-vector-76_9207 {
+  width: 16px;
+  height: 16px;
+  background-image: url(./image/76-9207_Frame_76_9207.svg);
+}
+
+.Pixso-paragraph-76_9211,.Pixso-paragraph-76_9212 {
+  font-size: 12px;
+  font-weight: 400;
+  text-decoration: none;
+  height: auto;
+}
+
+.Pixso-paragraph-76_9211 {
+  font-family: "Inter-Regular";
+  font-feature-settings: "locl" 0;
+  color: var(--color-t2);
+  width: 261.15332px;
+}
+
+.Pixso-paragraph-76_9212 {
+  font-family: "Inter-Medium";
+  color: var(--color-t3);
+  width: auto;
+}
+
+.Pixso-frame-76_9213 {
+  width: 165px;
+  height: 16px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.Pixso-vector-76_9214 {
+  width: 16px;
+  height: 16px;
+  background-image: url(./image/76-9214_Icon.svg);
+}
+
+.Pixso-paragraph-76_9216 {
+  font-size: 12px;
+  font-family: "Inter-Regular";
+  font-weight: 400;
+  text-decoration: none;
+  color: var(--color-t2);
+  width: auto;
+  height: auto;
+}
+
+.Pixso-vector-76_9217 {
+  width: 16px;
+  height: 16px;
+  background-image: url(./image/76-9217_KHCFDC_.svg);
+}
+
+.Pixso-paragraph-76_9219 {
+  font-size: 17px;
+  font-family: "Inter-Semi Bold";
+  font-weight: 600;
+  line-height: 22px;
+  text-decoration: none;
+  width: 270px;
+  height: auto;
+  position: absolute;
+  left: 12px;
+  top: 48px;
+}
+
+.Pixso-vector-76_9220 {
+  width: 343px;
+  height: 0.60009765625px;
+  background-image: url(./image/76-9220_Vector_76_9220.svg);
+  position: absolute;
+  left: 0px;
+  top: 100px;
+}
+
+.Pixso-group-76_9221 {
+  width: 88px;
+  height: 28px;
+  position: absolute;
+  left: 8px;
+  top: 10px;
+}
+
+.Pixso-frame-76_9222 {
+  width: auto;
+  height: auto;
+  position: absolute;
+  left: 14px;
+  top: 2px;
+  display: flex;
+  justify-content: flex-start;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.Pixso-paragraph-76_9223 {
+  font-size: 14px;
+  font-family: "Inter-Medium";
+  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-decoration: none;
+  text-transform: capitalize;
+  color: rgba(69, 104, 170, 1);
+  width: auto;
+  height: auto;
+  position: relative;
+  flex-shrink: 0;
+}
+
+.Pixso-group-76_9234,.Pixso-group-76_9235 {
+  width: 28px;
+  height: 28px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+.Pixso-vector-76_9237 {
+  position: absolute;
+  inset: -11.68451749352544% -20.32967032967033% -12.950335770745939% -8.791208791208792% ;
+  background-image: url(./image/76-9237_chuji0.png);
+}
+
+.vector-wrapper-76_9237 {
+  position: absolute;
+  left: 4.046875px;
+  top: 2.625px;
+  width: 19.90625px;
+  height: 22.465626px;
+}
+
+.Pixso-group-76_9238 {
+  width: 24.000002px;
+  height: 24.000002px;
+  position: absolute;
+  left: 2px;
+  top: 2px;
+}
+
+.Pixso-vector-76_9240 {
+  width: 21px;
+  height: 23.699951171875px;
+  background-image: url(./image/76-9240_chuji.png);
+  position: absolute;
+  left: 1.5px;
+  top: 0px;
+}
+
+.Pixso-group-76_9241 {
+  width: 19.25px;
+  height: 19.25px;
+  position: absolute;
+  left: 4.375px;
+  top: 4.375px;
+}
+
+.Pixso-vector-76_9244,.Pixso-vector-76_9258 {
+  position: absolute;
+}
+
+.Pixso-vector-76_9244 {
+  width: 17px;
+  height: 19px;
+  background-image: url(./image/76-9244_plat.png);
+  left: 1.125px;
+  top: 0.125px;
+  -webkit-mask-position: -1.125px -0.125px;
+  mask-position: -1.125px -0.125px;
+}
+
+.Pixso-vector-76_9258 {
+  width: 5.83%;
+  height: 12.35%;
+  background-image: url(./image/76-9258_Frame_76_9258.svg);
+  left: 89.21%;
+  top: 8.64%;
+}
+
+
+  </style>
+</head>
+<body>
+<div class="scroll-container">
+  <div id="0_1" class="Pixso-canvas-0_1">
+    <div id="76_9107" class="Pixso-frame-76_9107 fill-背景b1-常规大背景-76_16047">
+      <div id="76_9108" class="Pixso-frame-76_9108">
+        <div id="76_9109" class="Pixso-group-76_9109">
+          <div id="76_9110" class="Pixso-rectangle-76_9110"></div>
+          <div id="76_9111" class="Pixso-vector-76_9111"></div>
+          <div id="76_9113" class="Pixso-instance-76_9113">
+            <div id="102_1477" class="Pixso-group-102_1477">
+              <div id="102_1478" class="stroke-wrapper-102_1478">
+                <div class="Pixso-rectangle-102_1478"></div>
+                <div class="stroke-102_1478 stroke-字体色f1-76_16042"></div>
+              </div>
+              <div id="102_1479" class="Pixso-vector-102_1479"></div>
+              <div id="102_1480" class="Pixso-rectangle-102_1480 fill-字体色f1-76_16042"></div>
+            </div>
+            <div id="102_1481" class="Pixso-vector-102_1481"></div>
+            <div id="102_1485" class="Pixso-vector-102_1485"></div>
+            <div id="102_1490" class="Pixso-frame-102_1490">
+              <p id="102_1491" class="Pixso-paragraph-102_1491 fill-字体色f1-76_16042-paragraph">9:41</p>
+            </div>
+          </div>
+        </div>
+        <div id="76_9114" class="Pixso-frame-76_9114">
+          <p id="76_9115" class="Pixso-paragraph-76_9115">example plant 001</p>
+          <div id="76_9116" class="Pixso-vector-76_9116"></div>
+        </div>
+      </div>
+      <div id="76_9119" class="Pixso-instance-76_9119">
+        <div id="102_1144" class="Pixso-group-102_1144">
+          <div id="102_1145" class="Pixso-frame-102_1145">
+            <div id="102_1146" class="Pixso-rectangle-102_1146"></div>
+            <div id="102_1147" class="Pixso-rectangle-102_1147"></div>
+          </div>
+        </div>
+      </div>
+      <p id="76_9120" class="Pixso-paragraph-76_9120">Service provider</p>
+      <div id="76_9121" class="Pixso-group-76_9121">
+        <div id="76_9122" class="Pixso-vector-76_9122"></div>
+        <div id="76_9126" class="Pixso-group-76_9126">
+          <div id="76_9127" class="Pixso-rectangle-76_9127"></div>
+          <div id="76_9128" class="Pixso-frame-76_9128">
+            <div id="76_9129" class="Pixso-frame-76_9129">
+              <div class="frame-content-76_9129">
+                <div id="76_9130" class="Pixso-vector-76_9130"></div>
+                <p id="76_9134" class="Pixso-paragraph-76_9134">The Printworks, 27 Withy Grove, Manchester</p>
+                <p id="76_9135" class="Pixso-paragraph-76_9135 fill-文字t1-标题-76_16045-paragraph">1.4km</p>
+              </div>
+            </div>
+            <div id="76_9136" class="Pixso-frame-76_9136">
+              <div class="frame-content-76_9136">
+                <div id="76_9137" class="Pixso-vector-76_9137"></div>
+                <p id="76_9140" class="Pixso-paragraph-76_9140">She@solaxpower.com</p>
+                <div id="76_9141" class="Pixso-vector-76_9141"></div>
+              </div>
+            </div>
+          </div>
+          <p id="76_9145" class="Pixso-paragraph-76_9145 fill-字体色f1-76_16042-paragraph">Schonefeld power plant name names here names here</p>
+          <div id="76_9146" class="Pixso-vector-76_9146"></div>
+          <div id="76_9147" class="Pixso-group-76_9147">
+            <div id="76_9148" class="Pixso-frame-76_9148">
+              <p id="76_9149" class="Pixso-paragraph-76_9149">Gold</p>
+            </div>
+            <div id="76_9150" class="Pixso-group-76_9150">
+              <div id="76_9151" class="Pixso-group-76_9151">
+                <div id="76_9153" class="vector-wrapper-76_9153">
+                  <div id="76_9153" class="Pixso-vector-76_9153"></div>
+                </div>
+              </div>
+              <div id="76_9154" class="Pixso-group-76_9154">
+                <div id="76_9156" class="Pixso-vector-76_9156"></div>
+              </div>
+              <div id="76_9157" class="Pixso-group-76_9157">
+                <div id="76_9159" class="Pixso-vector-76_9159"></div>
+              </div>
+            </div>
+          </div>
+          <div id="76_9160" class="Pixso-vector-76_9160"></div>
+        </div>
+        <div id="76_9163" class="Pixso-group-76_9163">
+          <div id="76_9164" class="Pixso-rectangle-76_9164"></div>
+          <div id="76_9165" class="Pixso-frame-76_9165">
+            <div id="76_9166" class="Pixso-frame-76_9166">
+              <div class="frame-content-76_9166">
+                <div id="76_9167" class="Pixso-vector-76_9167"></div>
+                <p id="76_9171" class="Pixso-paragraph-76_9171">The Printworks, 27 Withy Grove, Manchester</p>
+                <p id="76_9172" class="Pixso-paragraph-76_9172 fill-文字t1-标题-76_16045-paragraph">1.4km</p>
+              </div>
+            </div>
+            <div id="76_9173" class="Pixso-frame-76_9173">
+              <div class="frame-content-76_9173">
+                <div id="76_9174" class="Pixso-vector-76_9174"></div>
+                <p id="76_9176" class="Pixso-paragraph-76_9176">She@solaxpower.com</p>
+                <div id="76_9177" class="Pixso-vector-76_9177"></div>
+              </div>
+            </div>
+          </div>
+          <p id="76_9179" class="Pixso-paragraph-76_9179 fill-字体色f1-76_16042-paragraph">Schonefeld power plant name names here names here</p>
+          <div id="76_9180" class="Pixso-vector-76_9180"></div>
+          <div id="76_9181" class="Pixso-group-76_9181">
+            <div id="76_9182" class="Pixso-frame-76_9182">
+              <p id="76_9183" class="Pixso-paragraph-76_9183">Sliver</p>
+            </div>
+            <div id="76_9184" class="Pixso-group-76_9184">
+              <div id="76_9185" class="Pixso-group-76_9185">
+                <div id="76_9187" class="vector-wrapper-76_9187">
+                  <div id="76_9187" class="Pixso-vector-76_9187"></div>
+                </div>
+              </div>
+              <div id="76_9188" class="Pixso-group-76_9188">
+                <div id="76_9190" class="Pixso-vector-76_9190"></div>
+              </div>
+              <div id="76_9191" class="Pixso-group-76_9191">
+                <div id="76_9193" class="Pixso-vector-76_9193"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <p id="76_9197" class="Pixso-paragraph-76_9197">Nearby service provider</p>
+      </div>
+      <div id="76_9198" class="Pixso-group-76_9198">
+        <div id="76_9199" class="stroke-wrapper-76_9199">
+          <div class="Pixso-rectangle-76_9199"></div>
+          <div class="stroke-76_9199"></div>
+        </div>
+        <div id="76_9200" class="vector-wrapper-76_9200">
+          <div id="76_9200" class="Pixso-vector-76_9200"></div>
+        </div>
+        <div id="76_9205" class="Pixso-frame-76_9205">
+          <div id="76_9206" class="Pixso-frame-76_9206">
+            <div class="frame-content-76_9206">
+              <div id="76_9207" class="Pixso-vector-76_9207"></div>
+              <p id="76_9211" class="Pixso-paragraph-76_9211">The Printworks, 27 Withy Grove, Manchester</p>
+              <p id="76_9212" class="Pixso-paragraph-76_9212">1.4km</p>
+            </div>
+          </div>
+          <div id="76_9213" class="Pixso-frame-76_9213">
+            <div class="frame-content-76_9213">
+              <div id="76_9214" class="Pixso-vector-76_9214"></div>
+              <p id="76_9216" class="Pixso-paragraph-76_9216">She@solaxpower.com</p>
+              <div id="76_9217" class="Pixso-vector-76_9217"></div>
+            </div>
+          </div>
+        </div>
+        <p id="76_9219" class="Pixso-paragraph-76_9219 fill-字体色f1-76_16042-paragraph">Schonefeld power plant name names here names here</p>
+        <div id="76_9220" class="Pixso-vector-76_9220"></div>
+        <div id="76_9221" class="Pixso-group-76_9221">
+          <div id="76_9222" class="Pixso-frame-76_9222">
+            <p id="76_9223" class="Pixso-paragraph-76_9223">Platium</p>
+          </div>
+          <div id="76_9234" class="Pixso-group-76_9234">
+            <div id="76_9235" class="Pixso-group-76_9235">
+              <div id="76_9237" class="vector-wrapper-76_9237">
+                <div id="76_9237" class="Pixso-vector-76_9237"></div>
+              </div>
+            </div>
+            <div id="76_9238" class="Pixso-group-76_9238">
+              <div id="76_9240" class="Pixso-vector-76_9240"></div>
+            </div>
+            <div id="76_9241" class="Pixso-group-76_9241">
+              <div id="76_9244" class="Pixso-vector-76_9244"></div>
+            </div>
+          </div>
+        </div>
+        <div id="76_9258" class="Pixso-vector-76_9258"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<script>
+
+</script>
+
+</body>
+</html>
